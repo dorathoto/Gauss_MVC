@@ -103,11 +103,11 @@ Enviar print no grupo com a foto do carousel e print do AppDbContext com os 2 Db
 
 _4. NET 6 - Controllers e Views_ 35'
 
-- 1. Criando o Controller a View para exibir os lanches 9'
-- 2. Ajustando o código da View List 6'
-- 3. Conceitos ViewData, ViewBag e TempData 9'
-- 4. Conceitos _ViewStart e _ViewImports 5'
-- 5. Bootstrap Ajustando o código para exibir os lanches 6'
+- [1. Criando o Controller a View para exibir os lanches 9'](https://drive.google.com/file/d/1cIh8lyAXUXgjg5DfL4K1AfahyBbkdBa5/view?usp=drive_link)
+- [2. Ajustando o código da View List 6'](https://drive.google.com/file/d/1bFG3vs1c3ZEqRyyaXaojkRyQtMNygENK/view?usp=drive_link)
+- [3. Conceitos ViewData, ViewBag e TempData 9'](https://drive.google.com/file/d/1bPgQDuEbyUwudVUxd__fcE1aIwjlvYH_/view?usp=drive_link)
+- [4. Conceitos _ViewStart e _ViewImports 5'](https://drive.google.com/file/d/1aTRm905aXlu3FKzSv2c5YCZQHXtCMUwb/view?usp=drive_link)
+- [5. Bootstrap Ajustando o código para exibir os lanches 6'](https://drive.google.com/file/d/1bqzJ2UUSY41vrevfEqHNvkVuk4WYLGEc/view?usp=drive_link)
 - 
 **Tarefas:**  
 Enviar print do startup contendo o Serviço criado em aula  
@@ -121,32 +121,32 @@ Enviar print do startup contendo o Serviço criado em aula
 
 **Assistir:** 181'  
 
-- 6. Apresentando o conceito de ViewModel 5'
-- 7. Implementando a view model LancheListViewModel 6'
-- 8. Apresentando Partial Views 7'
-- 9. Criando a partial view _LanchesResumo 5'
-- 10. Criando os itens do Carrinho de Compras Conceitos 5'
-- 11. Implementando os itens do carrinho de compras 6'
-- 12. Apresentando o conceito de Session 5'
-- 13. Configurando Session e HttpContext 4'
-- 14. Criando o Carrinho de Compras 9'
-- 15. Adicionar Itens ao Carrinho de Compras 4'
-- 16. Remover itens do Carrinho de Compras 3'
-- 17. Concluindo o Carrinho de Compras 5'
-- 18. Criando o Controlador para gerenciar os itens do carrinho de compras 10'
-- 19. Criando o Controlador para gerenciar os itens do carrinho de compras - II 7'
-- 20. Criando a View para exibir os itens do carrinho de compras 10'
-- 21. Exibindo os lanches preferidos 7'
-- 22. Apresentando o conceito de ViewComponent 4'
-- 23. Criando uma ViewComponent para exibir detalhes do carrinho 12'
-- 24. Apresentando o conceito de TagHelpers 5'
-- 25. Criando uma TagHelper 9'
-- 26. Ajustando o LancheController para exibir lanches por categoria 8'
-- 27. Apresentando os conceitos sobre Roteamento 8'
-- 28. Múltiplas Rotas - Criando a rota para exibir lanches por categoria 11'
-- 29. Criar View Componente para exibir as categorias no menu Lanches 10'
-- 30. Otimizando o método Action List de LancheController 6'
-- 31. Incluindo um link e um button na exibição dos lanches 10'
+- [6. Apresentando o conceito de ViewModel 5'](https://drive.google.com/file/d/1ba8W50xGeJ5oUnQ63l_xfBnb2HTDMCxA/view?usp=drive_link)
+- [7. Implementando a view model LancheListViewModel 6'](https://drive.google.com/file/d/1b_-AfEtN5LbIXR9QaDNx8GjohiifVGpH/view?usp=drive_link)
+- [8. Apresentando Partial Views 7'](https://drive.google.com/file/d/1aKo84wh95nY3gQR_fe3YdT7xipvP_r64/view?usp=drive_link)
+- [9. Criando a partial view _LanchesResumo 5'](https://drive.google.com/file/d/1cqOoPRaauYAQyDxXFfAorQhE3l5ShTeq/view?usp=drive_link)
+- [10. Criando os itens do Carrinho de Compras Conceitos 5'](https://drive.google.com/file/d/1Rub_BUSD9HikPXMLG8apgjGSYWibNMlT/view?usp=drive_link)
+- [11. Implementando os itens do carrinho de compras 6'](https://drive.google.com/file/d/1bxtUgBgvOravleNiu_nRev9KytCt6kXX/view?usp=drive_link)
+- [12. Apresentando o conceito de Session 5'](https://drive.google.com/file/d/1bS6gIulptCLY4_pp8XGDCks5vIYrVmYD/view?usp=drive_link)
+- [13. Configurando Session e HttpContext 4'](https://drive.google.com/file/d/1bxq4rTx6XmyPEXYb1TO-jtS5fME3YpXM/view?usp=drive_link)
+- [14. Criando o Carrinho de Compras 9'](https://drive.google.com/file/d/1S1EzD-_7Gvr3-SdFoeqsZAe0X1B356xW/view?usp=drive_link)
+- [15. Adicionar Itens ao Carrinho de Compras 4'](https://drive.google.com/file/d/1bN5fnRozq4Ip-XeCJ9LtalkzLBtlapPc/view?usp=drive_link)
+- [16. Remover itens do Carrinho de Compras 3'](https://drive.google.com/file/d/1bEoriwIkDWf5H8ISScSOE0Q_X_8ybfOB/view?usp=drive_link)
+- [17. Concluindo o Carrinho de Compras 5'](https://drive.google.com/file/d/1ay_3TsLQj1_ybZW9B4Hn4H3GDEWvQ36T/view?usp=drive_link)
+- [18. Criando o Controlador para gerenciar os itens do carrinho de compras 10'](https://drive.google.com/file/d/1beUnXmaGWpDweN1aAE7mzdFRXEehDkl9/view?usp=drive_link)
+- [19. Criando o Controlador para gerenciar os itens do carrinho de compras - II 7'](https://drive.google.com/file/d/1b9eDe5r0N4fgQrMve9QwAp_efkt3UFqI/view?usp=drive_link)
+- [20. Criando a View para exibir os itens do carrinho de compras 10'](https://drive.google.com/file/d/1d8wOL-cz8r72eUnNNgYw774tsofoXlB4/view?usp=drive_link)
+- [21. Exibindo os lanches preferidos 7'](https://drive.google.com/file/d/1amrMiM8HNyIqh9WT93-H6P0msqx8XIPA/view?usp=drive_link)
+- [22. Apresentando o conceito de ViewComponent 4'](https://drive.google.com/file/d/1d-cBElPx39HFp7MM7PpVGjL22jgoOhlM/view?usp=drive_link)
+- [23. Criando uma ViewComponent para exibir detalhes do carrinho 12'](https://drive.google.com/file/d/1bE9NBiu9CjiLiH_g15n99VV1aLB8-EGy/view?usp=drive_link)
+- [24. Apresentando o conceito de TagHelpers 5'](https://drive.google.com/file/d/1aUQPE7d9r9YAOukGgACHFxKH6l36Sz61/view?usp=drive_link)
+- [25. Criando uma TagHelper 9'](https://drive.google.com/file/d/1alJPxR7-kPk7TmZwA6TCm1wXMOVSscoF/view?usp=drive_link)
+- [26. Ajustando o LancheController para exibir lanches por categoria 8'](https://drive.google.com/file/d/1bYGMKVH8CsMjPSyybuvHm73pMFuZ8tx9/view?usp=drive_link)
+- [27. Apresentando os conceitos sobre Roteamento 8'](https://drive.google.com/file/d/1cQkx8YJwpexI1b3tPJ5c2Y4BL3-xncBz/view?usp=drive_link)
+- [28. Múltiplas Rotas - Criando a rota para exibir lanches por categoria 11'](https://drive.google.com/file/d/1bDEhYyj3Jc99byAqcPoIkHZi5q-RUyWh/view?usp=drive_link)
+- [29. Criar View Componente para exibir as categorias no menu Lanches 10'](https://drive.google.com/file/d/1adVpWkOeRk2WGiCn6e1kiS-myN6f-rVW/view?usp=drive_link)
+- [30. Otimizando o método Action List de LancheController 6'](https://drive.google.com/file/d/1bhyBYrYqHht4nJoI7DTX8Q1RTWIDKOEC/view?usp=drive_link)
+- [31. Incluindo um link e um button na exibição dos lanches 10'](https://drive.google.com/file/d/1bJkABFyCawYNKvmeSinrnOxiEGqPNoDe/view?usp=drive_link)
 
 **Tarefas:**  
 Enviar print da Solution contendo todas as novas classes
@@ -161,26 +161,26 @@ Enviar print da Solution contendo todas as novas classes
 **Assistir:** 148'  
 _5. NET 6 - Pedidos  Ajustando o Modelo  - Migrations_ 63'
 
-- 1. Pedidos - Expandindo o modelo de domínio 12'
-- 2. Criando o repositório para os pedidos 8'
-- 3. Localizando lanches por nome - Search 7'
-- 4. Criando o controlador PedidoController 8'
-- 5. Criando a view Checkout 6'
-- 6. Criando o método Action Checkout (HttpPost) 8'
-- 7. Criando a view CheckoutCompleto  - Exibindo um resumo do pedido 9'
-- 8. Criando um layout alternativo para o site de lanches 5'
+- [1. Pedidos - Expandindo o modelo de domínio 12'](https://drive.google.com/file/d/1dp14ehblFjmbbYv9qx3fYYavPNpWzz37/view?usp=drive_link)
+- [2. Criando o repositório para os pedidos 8'](https://drive.google.com/file/d/1dfkxfl6OUqDv7eSHygsXaNanlof3VoC9/view?usp=drive_link)
+- [3. Localizando lanches por nome - Search 7'](https://drive.google.com/file/d/1d_MpdoxbAeQ2YSUq5PUJxdErjepnjQmH/view?usp=drive_link)
+- [4. Criando o controlador PedidoController 8'](https://drive.google.com/file/d/1dVjoJQhYqYQLWQm6WaiPO7dD4sqxnH5j/view?usp=drive_link)
+- [5. Criando a view Checkout 6'](https://drive.google.com/file/d/1db58Cdmf-mU40uKIrVvbjVmFoqRZWk4N/view?usp=drive_link)
+- [6. Criando o método Action Checkout (HttpPost) 8'](https://drive.google.com/file/d/1dh8Pxeie9NiLsLdzps0ZKS5x5qnp8Yx3/view?usp=drive_link)
+- [7. Criando a view CheckoutCompleto  - Exibindo um resumo do pedido 9'](https://drive.google.com/file/d/1dutkhFPYk72NzfbD8UMfZSFidob8tNlI/view?usp=drive_link)
+- [8. Criando um layout alternativo para o site de lanches 5'](https://drive.google.com/file/d/1dHkMcupWrwww_dDlgiNDyTVTjfKsjGqz/view?usp=drive_link)
 
 _6. NET 6 - Identity  Autenticação e Autorização_ 85'
 
-- 1. Autenticação e Autorização 14'
-- 2. Configurando o Identity no projeto 11'
-- 3. Implementando o Login - I 7'
-- 4. Implementando o Login - II  7'
-- 5. Criando a View Login 8'
-- 6. Implementando o Registro - I 7'
-- 7. Criando a View Register 10'
-- 8. Implementando o Logout 10'
-- 9. Implementando a autorização - Authorize  11'
+- [1. Autenticação e Autorização 14'](https://drive.google.com/file/d/1QCoJItnbblqXVuAeIROMj8O2a8IfWugA/view?usp=drive_link)
+- [2. Configurando o Identity no projeto 11'](https://drive.google.com/file/d/1QRcky-pOS-pGjXlmwlOzcWScLyoppaYR/view?usp=drive_link)
+- [3. Implementando o Login - I 7'](https://drive.google.com/file/d/1QUWVJa0h1DdHnj--CqrFGmf-LIS0-MhX/view?usp=drive_link)
+- [4. Implementando o Login - II  7'](https://drive.google.com/file/d/1PzSjASBK-bNOqemzMw7Pm01S6YrJLP8k/view?usp=drive_link)
+- [5. Criando a View Login 8'](https://drive.google.com/file/d/1Q9BFb0lsyPBpHSJWa53ZlrqDw58JE5bh/view?usp=drive_link)
+- [6. Implementando o Registro - I 7'](https://drive.google.com/file/d/1Q2UJUPDvwqlyPwknnCBz3vvFDR0gJwg-/view?usp=drive_link)
+- [7. Criando a View Register 10'](https://drive.google.com/file/d/1QdDJmvERtbj1coL074w9BuYfuxvP2JXm/view?usp=drive_link)
+- [8. Implementando o Logout 10'](https://drive.google.com/file/d/1QV2THLCjpQ6QHzt5mbWdQExubLpmyIo8/view?usp=drive_link)
+- [9. Implementando a autorização - Authorize  11'](https://drive.google.com/file/d/1QD79UmyvDtI0JXFQSmBAKDX0rqHFqX1T/view?usp=drive_link)
 - 
 **Tarefas:**  
 Enviar 
