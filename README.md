@@ -1,13 +1,26 @@
 
 
 # Bem vindo ao curso Gauss MVC ASP.NET .net6
+
 Esse curso é gratuito e presencial.
+
 Professor: Leonardo Dorathoto
-Caso tenha dúvidas perguntar no grupo do whatsapp: **Gauss Grupo 2**
-Curso de base: https://www.udemy.com/course/curso-de-asp-net-core-mvc-criando-um-site-do-zero/ By Macoratti
+
+Caso tenha dúvidas, pergunte no grupo do whatsapp: **Gauss Grupo 2**
+
+Curso de base: https://www.udemy.com/course/curso-de-asp-net-core-mvc-criando-um-site-do-zero/ *By Macoratti*
+
+## Como irá funcionar?
+Toda semana, começando na segunda-feira e indo até domingo, teremos uma lista de vídeos e tarefas a serem realizadas. Por exemplo: assistir a 5 vídeos e enviar um print (até domingo).
+No domingo, irei recapitular brevemente TODOS os vídeos da aula, explicando e fornecendo alguns detalhes extras, além de esclarecer quaisquer dúvidas que tenham surgido.
+
+**Aqueles que não conseguirem assistir aos vídeos durante a semana terão dificuldade na aula de domingo!**
+
+Separei por semana de acordo com o conteúdo, quantidade em minutos de vídeo e dificuldade. Claro que a dificuldade é um pouco subjetiva, então, se estiver muito difícil ou com muito conteúdo, por favor, avise-me pelo WhatsApp.
+Os **PLUS** são conteúdos que **DEVEM ser assistidos!** Porém, coloco-os como PLUS, pois, caso a semana esteja muito corrida, assista somente aos outros e ignore o plus.
 
 ### Pré requesito:
-Computador com os seguintes programas:
+Computador com os seguintes programas instalados:
 
  - Visual Studio 2022 Community ou superior
  - .NET 6 SDK x64 https://dotnet.microsoft.com/en-us/download
