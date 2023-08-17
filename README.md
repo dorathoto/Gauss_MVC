@@ -14,7 +14,8 @@ Computador com os seguintes programas:
  - GIT https://git-scm.com/download/win
  - SMSS? 
  
- 
+ -------
+
 ### Semana 1 - 14/08 - 20/08
 
 > Objetivo: entender as versões .net, Visual Studio,
@@ -72,13 +73,16 @@ Enviar print no grupo com a foto do carousel e print do AppDbContext com os 2 Db
 
 **Assistir:**
 
- - 7. Apresentando o Migrations do EF Core 11'
- - 8. Aplicando os atributos Data Annotations
- - 9. Aplicando o Migrations no projeto
- - 10. Como popular as tabelas usando o Migrations
- - 11. Populando a tabela Categorias com dados iniciais
- - 12. Populando a tabela Lanches com dados iniciais
- - 13. Apresentando o padrão Repository
- - 14. Implementand o padrão Repository para Categoria
- - 15. Implementando o padrão Repository para Lanches
- - 16. Registrando o serviço dos repositórios  Injeção de Dependência
+ - [7. Apresentando o Migrations do EF Core 11'](https://drive.google.com/file/d/1YubxtuYdBJF0knkTMm7DaHeraNYKeD2n/view?usp=drive_link)
+ - [8. Aplicando os atributos Data Annotations 7'](https://drive.google.com/file/d/1ZR_e0uBUV97sXJHdGcDWysCDygjN4ljI/view?usp=drive_link)
+ - [9. Aplicando o Migrations no projeto 9'](https://drive.google.com/file/d/1ZhoUyRx95D55eJ0AYJVtN_Zp9x9y7Y6J/view?usp=drive_link)
+ - [10. Como popular as tabelas usando o Migrations 5'](https://drive.google.com/file/d/1Yv7WncErbQv3bKYaBJlEdWXdwgYGHw9g/view?usp=drive_link)
+ - [11. Populando a tabela Categorias com dados iniciais 5'](https://drive.google.com/file/d/1Zo1ueq5ZDiSt8XXBfGbIiSVGqMbdShTp/view?usp=drive_link)
+ - [12. Populando a tabela Lanches com dados iniciais 5'](https://drive.google.com/file/d/1_AWLE3giMUlKUdEJPBv3y33zPFcw_ooD/view?usp=drive_link)
+ - [13. Apresentando o padrão Repository 5'](https://drive.google.com/file/d/1YlxFXLjaonZXjGap2nKIZ1XmPWs9Xbvw/view?usp=drive_link)
+ - [14. Implementand o padrão Repository para Categoria 7'](https://drive.google.com/file/d/1Zz-xPhQo8aSZ5vtA6-Bjyn5s6bePu_9g/view?usp=drive_link)
+ - [15. Implementando o padrão Repository para Lanches 9'](https://drive.google.com/file/d/1_2DB-Ppk58VR8J2MHh50p2kmZCyP6KX9/view?usp=drive_link)
+ - [16. Registrando o serviço dos repositórios  Injeção de Dependência 8'](https://drive.google.com/file/d/1YyjzojS2EXBCFoxCtyUL4NntY72mcTSu/view?usp=drive_link)
+**Tarefas:**
+Enviar print do startup contendo o Serviço criado em aula
+**Quem enviou:**
