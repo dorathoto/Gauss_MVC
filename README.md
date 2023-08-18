@@ -26,7 +26,7 @@ Computador com os seguintes programas instalados:
 
 - Visual Studio 2022 Community ou superior ([Wiki como instalar](https://github.com/dorathoto/Gauss_MVC/wiki/Como-Instalar-Visual-Studio))
 - .NET 6 SDK x64 https://dotnet.microsoft.com/en-us/download
-- GIT https://git-scm.com/download/win
+- GIT https://git-scm.com/download/win   ([Comandos básicos](https://github.com/dorathoto/Gauss_MVC/wiki/Comandos-B%C3%A1sicos-do-Git))
 - SMSS?
 
 ---
