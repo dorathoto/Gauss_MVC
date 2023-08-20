@@ -29,6 +29,16 @@ Computador com os seguintes programas instalados:
 - GIT https://git-scm.com/download/win   ([Comandos básicos](https://github.com/dorathoto/Gauss_MVC/wiki/Comandos-B%C3%A1sicos-do-Git))
 - SMSS?
 
+
+### Curso extra
+Lembrando que o curso baixo é de MVC ou seja, não é específicamente de C#, para isso se tiver dúvidas de como criar um if, switch ou uma classe, reveja os vídeos básicos do C#
+
+[Curso básico C#, clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/C%23-B%C3%A1sico-%E2%80%90-v%C3%ADdeos)
+
+[Curso avançado C#](https://github.com/dorathoto/Gauss_MVC/wiki/C%23-Avan%C3%A7ado-%E2%80%90-v%C3%ADdeos)
+
+Abaixo o conteúdo separado por semanas, verifique a data
+
 ---
 
 ### Semana 1 - 14/08 - 20/08
@@ -60,7 +70,7 @@ Computador com os seguintes programas instalados:
 _2\. NET 6 - Projeto ASP .NET Core MVC - Site para venda de Lanches_ 44'
 
 - [1\. Apresentação do site de Venda de Lanches 10'](https://drive.google.com/file/d/1PxntgvlMx_Myi1elMNUkA3QHq4M51poT/view?usp=drive_link)
-- [2\. Ambiente e Ferramentas usadas no curso 4'](https://drive.google.com/file/d/1Pnf8gIVjB9gI_ldfeDOPuy41f_utVzBN/view?usp=drive_link)
+- [2\. Ambiente e Ferramentas usadas no curso 4'](https://drive.google.com/file/d/1Pnf8gIVjB9gI_ldfeDOPuy41f_utVzBN/view?usp=drive_link) Não precisa instalar nda
 - [3\. Criação do projeto ASP .NET Core MVC 6'](https://drive.google.com/file/d/1PoQ9VBfpF-JiMFIVwAv8NGweszhZmpiw/view?usp=drive_link)
 - [4\. Apresentando a estrutura do projeto 6'](https://drive.google.com/file/d/1PmcxBA6imIZjdUwjkm_WNsqT9PivD88n/view?usp=drive_link)
 - [5\. Apresentando o padrão MVC - Model View Controller 13'](https://drive.google.com/file/d/1PIaEeB33I10TyShlsVg4fNimQJMDCZ3j/view?usp=drive_link)
