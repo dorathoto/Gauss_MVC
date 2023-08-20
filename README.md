@@ -29,6 +29,13 @@ Computador com os seguintes programas instalados:
 - GIT https://git-scm.com/download/win   ([Comandos básicos](https://github.com/dorathoto/Gauss_MVC/wiki/Comandos-B%C3%A1sicos-do-Git))
 - SMSS?
 
+
+### Curso extra
+Lembrando que o curso baixo é de MVC ou seja, não é específicamente de C#, para isso se tiver dúvidas de como criar um if, switch ou uma classe, reveja os vídeos básicos do C#
+
+[Curso básico C#, clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/C%23-B%C3%A1sico-%E2%80%90-v%C3%ADdeos)
+
+[Curso avançado C#](https://github.com/dorathoto/Gauss_MVC/wiki/C%23-Avan%C3%A7ado-%E2%80%90-v%C3%ADdeos)
 ---
 
 ### Semana 1 - 14/08 - 20/08
