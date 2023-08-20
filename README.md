@@ -37,6 +37,7 @@ Lembrando que o curso baixo é de MVC ou seja, não é específicamente de C#, p
 
 [Curso avançado C#](https://github.com/dorathoto/Gauss_MVC/wiki/C%23-Avan%C3%A7ado-%E2%80%90-v%C3%ADdeos)
 
+Abaixo o conteúdo separado por semanas, verifique a data
 
 ---
 
