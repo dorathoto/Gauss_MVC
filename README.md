@@ -36,6 +36,8 @@ Lembrando que o curso baixo é de MVC ou seja, não é específicamente de C#, p
 [Curso básico C#, clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/C%23-B%C3%A1sico-%E2%80%90-v%C3%ADdeos)
 
 [Curso avançado C#](https://github.com/dorathoto/Gauss_MVC/wiki/C%23-Avan%C3%A7ado-%E2%80%90-v%C3%ADdeos)
+
+
 ---
 
 ### Semana 1 - 14/08 - 20/08
