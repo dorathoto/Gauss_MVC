@@ -71,8 +71,9 @@ _2\. NET 6 - Projeto ASP .NET Core MVC - Site para venda de Lanches_ 44'
 
 - [1\. Apresentação do site de Venda de Lanches 10'](https://drive.google.com/file/d/1PxntgvlMx_Myi1elMNUkA3QHq4M51poT/view?usp=drive_link)
 - [2\. Ambiente e Ferramentas usadas no curso 4'](https://drive.google.com/file/d/1Pnf8gIVjB9gI_ldfeDOPuy41f_utVzBN/view?usp=drive_link) Não precisa instalar nda
-- [3\. Criação do projeto ASP .NET Core MVC 6'](https://drive.google.com/file/d/1PoQ9VBfpF-JiMFIVwAv8NGweszhZmpiw/view?usp=drive_link
+- [3\. Criação do projeto ASP .NET Core MVC 6'](https://drive.google.com/file/d/1PoQ9VBfpF-JiMFIVwAv8NGweszhZmpiw/view?usp=drive_link)
 [obs: Vídeo 3, acesse aqui antes de assistir](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-2-%E2%80%90-V%C3%ADdeo-3)
+
 - [4\. Apresentando a estrutura do projeto 6'](https://drive.google.com/file/d/1PmcxBA6imIZjdUwjkm_WNsqT9PivD88n/view?usp=drive_link)
 - [5\. Apresentando o padrão MVC - Model View Controller 13'](https://drive.google.com/file/d/1PIaEeB33I10TyShlsVg4fNimQJMDCZ3j/view?usp=drive_link)
 - [7\. Criando o Carousel no site para venda de Lanches 6'](https://drive.google.com/file/d/1PkXSRnSGrS5npLuX_OcgujxXCyz4oFuj/view?usp=drive_link)
