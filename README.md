@@ -77,6 +77,7 @@ obs: Vídeo3 [acesse aqui antes de assistir](https://github.com/dorathoto/Gauss_
 - [4\. Apresentando a estrutura do projeto 6'](https://drive.google.com/file/d/1PmcxBA6imIZjdUwjkm_WNsqT9PivD88n/view?usp=drive_link)
 - [5\. Apresentando o padrão MVC - Model View Controller 13'](https://drive.google.com/file/d/1PIaEeB33I10TyShlsVg4fNimQJMDCZ3j/view?usp=drive_link)
 - [7\. Criando o Carousel no site para venda de Lanches 6'](https://drive.google.com/file/d/1PkXSRnSGrS5npLuX_OcgujxXCyz4oFuj/view?usp=drive_link)
+Acesse as imagens dentro do projeto, [clique aqui](https://github.com/dorathoto/Gauss_MVC/tree/main/LanchesMac/wwwroot/images)
 
 _3\. NET 6 - Modelo de Dominio - Entity Framework Core_ 48'
 
