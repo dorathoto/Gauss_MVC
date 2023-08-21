@@ -15,6 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Navigate to Project Directory
+      run: |
+          cd ..
+          cd LanchesMac
     - name: Debug Directory Contents
       run: ls -R
     - uses: actions/checkout@v3
