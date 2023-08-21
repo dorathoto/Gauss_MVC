@@ -1,8 +1,12 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<h1>View Index</h1>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@*<partial name="_Carousel"/>*@
+
+@*@Html.Partial("_Carousel*@
+
+@*@{
+    Html.RenderPartial("_Carousel");
+}
+*@
+
+@await Html.PartialAsync("_Carousel")
