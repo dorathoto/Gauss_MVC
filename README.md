@@ -92,6 +92,8 @@ _3\. NET 6 - Modelo de Dominio - Entity Framework Core_ 48'
 
 - [6\. Funcionamento do projeto ASP .NET Core MVC 12'](https://drive.google.com/file/d/1PqmtdXxse8IGXuMbSNBx8b1bYmsJ1Wb3/view?usp=drive_link)
 - [8\. Considerações sobre a arquitetura do projeto 4'](https://drive.google.com/file/d/1Png0QD0uF1DOO5_vzV5I-bTJ_gwI22hN/view?usp=drive_link)
+- Documentação Oficial, [Adicionando um modelo](https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-6.0&tabs=visual-studio)
+- Documentação Oficial,[Configurando o EF](https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-6.0&tabs=visual-studio)
 
 **Tarefas:**  
 Enviar print no grupo com a foto do carousel e print do AppDbContext com os 2 DbSet\<>  
