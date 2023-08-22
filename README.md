@@ -49,7 +49,7 @@ Abaixo o conteúdo separado por semanas, verifique a data
 
 - [5\. Visual Studio 2022 - Template do Projeto MVC](https://drive.google.com/file/d/1U7w4Ff_7D_he8vh1QNi_m8wR-RGqu-jK/view?usp=drive_link)
 
-**PLUS:**
+**EXTRAS:**
 
 - [1\. Introdução](https://drive.google.com/file/d/1V3eJauor6Eakshhq9hejj2ceXv7YWhL1/view?usp=drive_link)
 - [2\. Apresentando o .NET 6](https://drive.google.com/file/d/1Uouxw0L60g4J_5eKRQGJjCkBro5CCSoE/view?usp=drive_link)
@@ -86,7 +86,7 @@ _3\. NET 6 - Modelo de Dominio - Entity Framework Core_ 48'
 - **\[PLUS\]** [5\. Entity Framework Core 7 e a string de conexão 6'](https://drive.google.com/file/d/1ZxJI3UIZIcTI_MMuoOBvLvHqNp_RA2HB/view?usp=drive_link) 
 - [6\. Apresentando o Data Annotations 8'](https://drive.google.com/file/d/1ZtTo-B2ZwY8afE2xSTXAo6SMjEzQluwf/view?usp=drive_link)
 
-**PLUS:**
+**EXTRAS:**
 
 - [6\. Funcionamento do projeto ASP .NET Core MVC 12'](https://drive.google.com/file/d/1PqmtdXxse8IGXuMbSNBx8b1bYmsJ1Wb3/view?usp=drive_link)
 - [8\. Considerações sobre a arquitetura do projeto 4'](https://drive.google.com/file/d/1Png0QD0uF1DOO5_vzV5I-bTJ_gwI22hN/view?usp=drive_link)
@@ -163,6 +163,8 @@ Enviar print do startup contendo o Serviço criado em aula
 - [30\. Otimizando o método Action List de LancheController 6'](https://drive.google.com/file/d/1bhyBYrYqHht4nJoI7DTX8Q1RTWIDKOEC/view?usp=drive_link)
 - [31\. Incluindo um link e um button na exibição dos lanches 10'](https://drive.google.com/file/d/1bJkABFyCawYNKvmeSinrnOxiEGqPNoDe/view?usp=drive_link)
 
+**EXTRAS:**
+
 **Tarefas:**  
 Enviar print da Solution contendo todas as novas classes  
 **Quem enviou:**
@@ -197,6 +199,8 @@ _6\. NET 6 - Identity Autenticação e Autorização_ 85'
 - [8\. Implementando o Logout 10'](https://drive.google.com/file/d/1QV2THLCjpQ6QHzt5mbWdQExubLpmyIo8/view?usp=drive_link)
 - [9\. Implementando a autorização - Authorize 11'](https://drive.google.com/file/d/1QD79UmyvDtI0JXFQSmBAKDX0rqHFqX1T/view?usp=drive_link)
 
+**EXTRAS:**
+  
 **Tarefas:**  
 Enviar  
 **Quem enviou:**
@@ -240,6 +244,8 @@ _9. NET 6 - Gerenciamento de Imagens_  49'
 - [4. Implementação - Enviando arquivos 11'](https://drive.google.com/file/d/1N4vmGM9hg_0nG9UZZafvCOdgTm8yRONw/view?usp=drive_link)
 - [5. Implementação - Exibindo e Deletando imagens 9'](https://drive.google.com/file/d/1N4rKsjGGbmMf5Jp88rqkFDGGeOiBdAqw/view?usp=drive_link)
 
+**EXTRAS:**
+
 **Tarefas:**  
 Enviar  
 **Quem enviou:**
@@ -279,7 +285,7 @@ _13. NET 6  - Gerando Relatórios e PDF usando o FastReport OpenSource_ 40'
 - [4. Criando o Controller e a View para gerar o relatório 11'](https://drive.google.com/file/d/1SCvz1TKaGNMCH3mJUngj2CKsNtvn7_nh/view?usp=drive_link)
 - [5. Gerando o relatório no formato PDF 7'](https://drive.google.com/file/d/1S3JfSiECEC0fHWF3WpK3QwwgehTfgUhe/view?usp=drive_link)
 
-
+**EXTRAS:**
 
 **Tarefas:**  
 Enviar  
