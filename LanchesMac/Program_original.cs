@@ -5,7 +5,7 @@ namespace LanchesMac
 {
     public class Program_Original
     {
-        public static void Main(string[] args)
+        public static void Main_Original(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
