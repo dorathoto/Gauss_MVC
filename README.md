@@ -71,7 +71,7 @@ _2\. NET 6 - Projeto ASP .NET Core MVC - Site para venda de Lanches_ 44'
 
 - [1\. Apresentação do site de Venda de Lanches 10'](https://drive.google.com/file/d/1PxntgvlMx_Myi1elMNUkA3QHq4M51poT/view?usp=drive_link)
 - [2\. Ambiente e Ferramentas usadas no curso 4'](https://drive.google.com/file/d/1Pnf8gIVjB9gI_ldfeDOPuy41f_utVzBN/view?usp=drive_link) Não precisa instalar nda
-- [3\. Criação do projeto ASP .NET Core MVC 6'](https://drive.google.com/file/d/1PoQ9VBfpF-JiMFIVwAv8NGweszhZmpiw/view?usp=drive_link) obs: Vídeo3 [acesse aqui antes de assistir](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-2-%E2%80%90-V%C3%ADdeo-3)
+- [3\. Criação do projeto ASP .NET Core MVC 6'](https://drive.google.com/file/d/1PoQ9VBfpF-JiMFIVwAv8NGweszhZmpiw/view?usp=drive_link) obs: Vídeo3 [acesse aqui antes de assistir](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-2)
 - [4\. Apresentando a estrutura do projeto 6'](https://drive.google.com/file/d/1PmcxBA6imIZjdUwjkm_WNsqT9PivD88n/view?usp=drive_link)
 - [5\. Apresentando o padrão MVC - Model View Controller 13'](https://drive.google.com/file/d/1PIaEeB33I10TyShlsVg4fNimQJMDCZ3j/view?usp=drive_link)
 - [7\. Criando o Carousel no site para venda de Lanches 6'](https://drive.google.com/file/d/1PkXSRnSGrS5npLuX_OcgujxXCyz4oFuj/view?usp=drive_link)
@@ -81,7 +81,7 @@ _3\. NET 6 - Modelo de Dominio - Entity Framework Core_ 48'
 
 - [1\. Criando o Modelo de dominio 12'](https://drive.google.com/file/d/1ZfZ4TZ6xlheyIVfu9fpind74ml2gsEG7/view?usp=drive_link)
 - [2\. Apresentando o Entity FrameworkCore 6'](https://drive.google.com/file/d/1Z1rPeQe6fLg_XdCFJYzO7l1UFrkDHVoL/view?usp=drive_link)
-- [3\. Configurando o EF Core 9'](https://drive.google.com/file/d/1Zpx0buYRUJRPAHQxi8R9INGiBcGy3ZwS/view?usp=drive_link) OBS: é disable e não disabled como no vídeo!
+- [3\. Configurando o EF Core 9'](https://drive.google.com/file/d/1Zpx0buYRUJRPAHQxi8R9INGiBcGy3ZwS/view?usp=drive_link) OBS: é disable e não disabled como no vídeo! [acesse aqui antes de assistir](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-2)
 - **\[PLUS\]** [4\. Montando a string de conexão com o SQL Server 12'](https://drive.google.com/file/d/1Zt3wCFsT-CVwFSoG8cBCtQozHid9iB0h/view?usp=drive_link) Não instalar o SQL Express, usar string localDb, [veja aqui](https://github.com/dorathoto/Gauss_MVC/blob/main/LanchesMac/appsettings.json)
 - **\[PLUS\]** [5\. Entity Framework Core 7 e a string de conexão 6'](https://drive.google.com/file/d/1ZxJI3UIZIcTI_MMuoOBvLvHqNp_RA2HB/view?usp=drive_link) 
 - [6\. Apresentando o Data Annotations 8'](https://drive.google.com/file/d/1ZtTo-B2ZwY8afE2xSTXAo6SMjEzQluwf/view?usp=drive_link)
