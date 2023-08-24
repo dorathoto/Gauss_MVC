@@ -105,10 +105,10 @@ Enviar print no grupo com a foto do carousel e print do AppDbContext com os 2 Db
 > Objetivo: Migration e Entender ViewData
 
 **Assistir:** 101'
-
+*OBS:* Todas observações desses vídeos estão [aqui na wiki] (https://github.com/dorathoto/Gauss_MVC/wiki/Semana-3)
 - [7\. Apresentando o Migrations do EF Core 11'](https://drive.google.com/file/d/1YubxtuYdBJF0knkTMm7DaHeraNYKeD2n/view?usp=drive_link)
 - [8\. Aplicando os atributos Data Annotations 7'](https://drive.google.com/file/d/1ZR_e0uBUV97sXJHdGcDWysCDygjN4ljI/view?usp=drive_link)
-- [9\. Aplicando o Migrations no projeto 9'](https://drive.google.com/file/d/1ZhoUyRx95D55eJ0AYJVtN_Zp9x9y7Y6J/view?usp=drive_link)
+- [9\. Aplicando o Migrations no projeto 9'](https://drive.google.com/file/d/1ZhoUyRx95D55eJ0AYJVtN_Zp9x9y7Y6J/view?usp=drive_link) 
 - [10\. Como popular as tabelas usando o Migrations 5'](https://drive.google.com/file/d/1Yv7WncErbQv3bKYaBJlEdWXdwgYGHw9g/view?usp=drive_link)
 - [11\. Populando a tabela Categorias com dados iniciais 5'](https://drive.google.com/file/d/1Zo1ueq5ZDiSt8XXBfGbIiSVGqMbdShTp/view?usp=drive_link)
 - [12\. Populando a tabela Lanches com dados iniciais 5'](https://drive.google.com/file/d/1_AWLE3giMUlKUdEJPBv3y33zPFcw_ooD/view?usp=drive_link)
