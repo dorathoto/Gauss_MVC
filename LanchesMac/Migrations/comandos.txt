@@ -1,0 +1,21 @@
+﻿### Via prompt do dos:
+
+ - criando migration
+
+dotnet ef migrations add __nome__
+ex: dotnet ef migrations add InitialCreate
+
+- Update database
+dotnet ef database update
+
+
+----------------------------------------------------------
+
+### VIA Package Manager Console
+
+ - criando migration
+ add-migration __nome__
+ ex: add-migration InitialCreate
+
+ - update dabase
+update-database
