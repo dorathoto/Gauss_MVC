@@ -46,6 +46,7 @@ Abaixo o conteúdo separado por semanas, verifique a data
 > Objetivo: Migration e Entender ViewData
 
 Leia as observações dos vídeos, [clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-3)
+
 **Assistir:** 101'
 
 - [7\. Apresentando o Migrations do EF Core 11'](https://drive.google.com/file/d/1YubxtuYdBJF0knkTMm7DaHeraNYKeD2n/view?usp=drive_link)
