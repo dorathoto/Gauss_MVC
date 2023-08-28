@@ -41,69 +41,11 @@ Abaixo o conteúdo separado por semanas, verifique a data
 
 ---
 
-### Semana 1 - 14/08 - 20/08
-
-> Objetivo: entender as versões .net, Visual Studio,
-
-**Assistir:**
-
-- [5\. Visual Studio 2022 - Template do Projeto MVC](https://drive.google.com/file/d/1U7w4Ff_7D_he8vh1QNi_m8wR-RGqu-jK/view?usp=drive_link)
-
-**EXTRAS:**
-
-- [1\. Introdução](https://drive.google.com/file/d/1V3eJauor6Eakshhq9hejj2ceXv7YWhL1/view?usp=drive_link)
-- [2\. Apresentando o .NET 6](https://drive.google.com/file/d/1Uouxw0L60g4J_5eKRQGJjCkBro5CCSoE/view?usp=drive_link)
-- [3\. Visual Studio 2022 - Apresentação e Instalação](https://drive.google.com/file/d/1U0n857x7rlV6PAg80q22-tWfmSgL7pEG/view?usp=drive_link)
-- [4\. Visual Studio Code - Instalação e criação do projeto MVC](https://drive.google.com/file/d/1UpG_T20YsfUNsfe92Y-0CCIf1AdIwbBH/view?usp=drive_link)
-- [6\. Visual Studio 2022 - Hot Reload](https://drive.google.com/file/d/1V1ikK70hfT6DYKI4rVOl3h3M9Qjw70af/view?usp=drive_link)
-- [7\. SQL Server e SQL Server Management Studio](https://drive.google.com/file/d/1UPY3Kbq5R27n0vV5ySqM3lISDK7lWbZk/view?usp=drive_link)
-- [8\. Migração do Projeto Venda de Lanches do .NET 5 para o .NET 6](https://drive.google.com/file/d/1UD5GGhUAj3eqUMy21knxYflYLpq8JTW_/view?usp=drive_link)
-- [9\. Migração do Projeto Venda de Lanches do .NET 6 para o .NET 7](https://drive.google.com/file/d/1UxIcQQ20T0P9cR-OXCWhvYIknRyzjYoa/view?usp=drive_link)
-
----
-
-### Semana 2 - 21/08 - 27/08
-
-> Objetivo: Criando o projeto
-
-**Assistir:** 108'  
-_2\. NET 6 - Projeto ASP .NET Core MVC - Site para venda de Lanches_ 44'
-
-- [1\. Apresentação do site de Venda de Lanches 10'](https://drive.google.com/file/d/1PxntgvlMx_Myi1elMNUkA3QHq4M51poT/view?usp=drive_link)
-- [2\. Ambiente e Ferramentas usadas no curso 4'](https://drive.google.com/file/d/1Pnf8gIVjB9gI_ldfeDOPuy41f_utVzBN/view?usp=drive_link) Não precisa instalar nda
-- [3\. Criação do projeto ASP .NET Core MVC 6'](https://drive.google.com/file/d/1PoQ9VBfpF-JiMFIVwAv8NGweszhZmpiw/view?usp=drive_link) obs: Vídeo3 [acesse aqui antes de assistir](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-2)
-- [4\. Apresentando a estrutura do projeto 6'](https://drive.google.com/file/d/1PmcxBA6imIZjdUwjkm_WNsqT9PivD88n/view?usp=drive_link)
-- [5\. Apresentando o padrão MVC - Model View Controller 13'](https://drive.google.com/file/d/1PIaEeB33I10TyShlsVg4fNimQJMDCZ3j/view?usp=drive_link)
-- [7\. Criando o Carousel no site para venda de Lanches 6'](https://drive.google.com/file/d/1PkXSRnSGrS5npLuX_OcgujxXCyz4oFuj/view?usp=drive_link)
-Acesse as imagens dentro do projeto, [clique aqui](https://github.com/dorathoto/Gauss_MVC/tree/main/LanchesMac/wwwroot/images)
-
-_3\. NET 6 - Modelo de Dominio - Entity Framework Core_ 48'
-
-- [1\. Criando o Modelo de dominio 12'](https://drive.google.com/file/d/1ZfZ4TZ6xlheyIVfu9fpind74ml2gsEG7/view?usp=drive_link)
-- [2\. Apresentando o Entity FrameworkCore 6'](https://drive.google.com/file/d/1Z1rPeQe6fLg_XdCFJYzO7l1UFrkDHVoL/view?usp=drive_link)
-- [3\. Configurando o EF Core 9'](https://drive.google.com/file/d/1Zpx0buYRUJRPAHQxi8R9INGiBcGy3ZwS/view?usp=drive_link) OBS: é disable e não disabled como no vídeo! [acesse aqui antes de assistir](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-2)
-- **\[PLUS\]** [4\. Montando a string de conexão com o SQL Server 12'](https://drive.google.com/file/d/1Zt3wCFsT-CVwFSoG8cBCtQozHid9iB0h/view?usp=drive_link) Não instalar o SQL Express, usar string localDb, [veja aqui](https://github.com/dorathoto/Gauss_MVC/blob/main/LanchesMac/appsettings.json)
-- **\[PLUS\]** [5\. Entity Framework Core 7 e a string de conexão 6'](https://drive.google.com/file/d/1ZxJI3UIZIcTI_MMuoOBvLvHqNp_RA2HB/view?usp=drive_link) 
-- [6\. Apresentando o Data Annotations 8'](https://drive.google.com/file/d/1ZtTo-B2ZwY8afE2xSTXAo6SMjEzQluwf/view?usp=drive_link)
-
-**EXTRAS:**
-
-- [6\. Funcionamento do projeto ASP .NET Core MVC 12'](https://drive.google.com/file/d/1PqmtdXxse8IGXuMbSNBx8b1bYmsJ1Wb3/view?usp=drive_link)
-- [8\. Considerações sobre a arquitetura do projeto 4'](https://drive.google.com/file/d/1Png0QD0uF1DOO5_vzV5I-bTJ_gwI22hN/view?usp=drive_link)
-- Documentação Oficial, [Adicionando um modelo](https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-6.0&tabs=visual-studio)
-- Documentação Oficial,[Configurando o EF](https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-6.0&tabs=visual-studio)
-
-**Tarefas:**  
-Enviar print no grupo com a foto do carousel e print do AppDbContext com os 2 DbSet\<>  
-
-**Quem enviou:** Thiago; Kazuo; ½ Gabi; ½ Denise; Lucas, Renam, Renato , Elora
-
----
-
 ### Semana 3 - 28/08 - 03/09
 
 > Objetivo: Migration e Entender ViewData
 
+Leia as observações dos vídeos, [clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-3)
 **Assistir:** 101'
 
 - [7\. Apresentando o Migrations do EF Core 11'](https://drive.google.com/file/d/1YubxtuYdBJF0knkTMm7DaHeraNYKeD2n/view?usp=drive_link)
@@ -291,3 +233,69 @@ _13. NET 6  - Gerando Relatórios e PDF usando o FastReport OpenSource_ 40'
 **Tarefas:**  
 Enviar  
 **Quem enviou:**
+
+
+-----------------
+# Semanas já concluídas
+
+
+
+
+### Semana 1 - 14/08 - 20/08
+
+> Objetivo: entender as versões .net, Visual Studio,
+
+**Assistir:**
+
+- [5\. Visual Studio 2022 - Template do Projeto MVC](https://drive.google.com/file/d/1U7w4Ff_7D_he8vh1QNi_m8wR-RGqu-jK/view?usp=drive_link)
+
+**EXTRAS:**
+
+- [1\. Introdução](https://drive.google.com/file/d/1V3eJauor6Eakshhq9hejj2ceXv7YWhL1/view?usp=drive_link)
+- [2\. Apresentando o .NET 6](https://drive.google.com/file/d/1Uouxw0L60g4J_5eKRQGJjCkBro5CCSoE/view?usp=drive_link)
+- [3\. Visual Studio 2022 - Apresentação e Instalação](https://drive.google.com/file/d/1U0n857x7rlV6PAg80q22-tWfmSgL7pEG/view?usp=drive_link)
+- [4\. Visual Studio Code - Instalação e criação do projeto MVC](https://drive.google.com/file/d/1UpG_T20YsfUNsfe92Y-0CCIf1AdIwbBH/view?usp=drive_link)
+- [6\. Visual Studio 2022 - Hot Reload](https://drive.google.com/file/d/1V1ikK70hfT6DYKI4rVOl3h3M9Qjw70af/view?usp=drive_link)
+- [7\. SQL Server e SQL Server Management Studio](https://drive.google.com/file/d/1UPY3Kbq5R27n0vV5ySqM3lISDK7lWbZk/view?usp=drive_link)
+- [8\. Migração do Projeto Venda de Lanches do .NET 5 para o .NET 6](https://drive.google.com/file/d/1UD5GGhUAj3eqUMy21knxYflYLpq8JTW_/view?usp=drive_link)
+- [9\. Migração do Projeto Venda de Lanches do .NET 6 para o .NET 7](https://drive.google.com/file/d/1UxIcQQ20T0P9cR-OXCWhvYIknRyzjYoa/view?usp=drive_link)
+
+---
+
+### Semana 2 - 21/08 - 27/08
+
+> Objetivo: Criando o projeto
+
+**Assistir:** 108'  
+_2\. NET 6 - Projeto ASP .NET Core MVC - Site para venda de Lanches_ 44'
+
+- [1\. Apresentação do site de Venda de Lanches 10'](https://drive.google.com/file/d/1PxntgvlMx_Myi1elMNUkA3QHq4M51poT/view?usp=drive_link)
+- [2\. Ambiente e Ferramentas usadas no curso 4'](https://drive.google.com/file/d/1Pnf8gIVjB9gI_ldfeDOPuy41f_utVzBN/view?usp=drive_link) Não precisa instalar nda
+- [3\. Criação do projeto ASP .NET Core MVC 6'](https://drive.google.com/file/d/1PoQ9VBfpF-JiMFIVwAv8NGweszhZmpiw/view?usp=drive_link) obs: Vídeo3 [acesse aqui antes de assistir](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-2)
+- [4\. Apresentando a estrutura do projeto 6'](https://drive.google.com/file/d/1PmcxBA6imIZjdUwjkm_WNsqT9PivD88n/view?usp=drive_link)
+- [5\. Apresentando o padrão MVC - Model View Controller 13'](https://drive.google.com/file/d/1PIaEeB33I10TyShlsVg4fNimQJMDCZ3j/view?usp=drive_link)
+- [7\. Criando o Carousel no site para venda de Lanches 6'](https://drive.google.com/file/d/1PkXSRnSGrS5npLuX_OcgujxXCyz4oFuj/view?usp=drive_link)
+Acesse as imagens dentro do projeto, [clique aqui](https://github.com/dorathoto/Gauss_MVC/tree/main/LanchesMac/wwwroot/images)
+
+_3\. NET 6 - Modelo de Dominio - Entity Framework Core_ 48'
+
+- [1\. Criando o Modelo de dominio 12'](https://drive.google.com/file/d/1ZfZ4TZ6xlheyIVfu9fpind74ml2gsEG7/view?usp=drive_link)
+- [2\. Apresentando o Entity FrameworkCore 6'](https://drive.google.com/file/d/1Z1rPeQe6fLg_XdCFJYzO7l1UFrkDHVoL/view?usp=drive_link)
+- [3\. Configurando o EF Core 9'](https://drive.google.com/file/d/1Zpx0buYRUJRPAHQxi8R9INGiBcGy3ZwS/view?usp=drive_link) OBS: é disable e não disabled como no vídeo! [acesse aqui antes de assistir](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-2)
+- **\[PLUS\]** [4\. Montando a string de conexão com o SQL Server 12'](https://drive.google.com/file/d/1Zt3wCFsT-CVwFSoG8cBCtQozHid9iB0h/view?usp=drive_link) Não instalar o SQL Express, usar string localDb, [veja aqui](https://github.com/dorathoto/Gauss_MVC/blob/main/LanchesMac/appsettings.json)
+- **\[PLUS\]** [5\. Entity Framework Core 7 e a string de conexão 6'](https://drive.google.com/file/d/1ZxJI3UIZIcTI_MMuoOBvLvHqNp_RA2HB/view?usp=drive_link) 
+- [6\. Apresentando o Data Annotations 8'](https://drive.google.com/file/d/1ZtTo-B2ZwY8afE2xSTXAo6SMjEzQluwf/view?usp=drive_link)
+
+**EXTRAS:**
+
+- [6\. Funcionamento do projeto ASP .NET Core MVC 12'](https://drive.google.com/file/d/1PqmtdXxse8IGXuMbSNBx8b1bYmsJ1Wb3/view?usp=drive_link)
+- [8\. Considerações sobre a arquitetura do projeto 4'](https://drive.google.com/file/d/1Png0QD0uF1DOO5_vzV5I-bTJ_gwI22hN/view?usp=drive_link)
+- Documentação Oficial, [Adicionando um modelo](https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-6.0&tabs=visual-studio)
+- Documentação Oficial,[Configurando o EF](https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-6.0&tabs=visual-studio)
+
+**Tarefas:**  
+Enviar print no grupo com a foto do carousel e print do AppDbContext com os 2 DbSet\<>  
+
+**Quem enviou:** Thiago; Kazuo; ½ Gabi; ½ Denise; Lucas, Renam, Renato , Elora
+
+---
