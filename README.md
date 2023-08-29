@@ -68,6 +68,9 @@ _4\. NET 6 - Controllers e Views_ 35'
 - [4\. Conceitos \_ViewStart e \_ViewImports 5'](https://drive.google.com/file/d/1aTRm905aXlu3FKzSv2c5YCZQHXtCMUwb/view?usp=drive_link)
 - [5\. Bootstrap Ajustando o código para exibir os lanches 6'](https://drive.google.com/file/d/1bqzJ2UUSY41vrevfEqHNvkVuk4WYLGEc/view?usp=drive_link)
 
+**EXTRAS**
+[Singleton, Scoped, Transient](https://nelson-souza.medium.com/net-core-dependency-injection-1c1900d1bef)
+
 **Tarefas:**  
 Enviar print do startup contendo o Serviço criado em aula  
 **Quem enviou:**
