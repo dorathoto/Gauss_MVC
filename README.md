@@ -73,7 +73,7 @@ _4\. NET 6 - Controllers e Views_ 35'
 [Projeto de teste Singleton, scoped, transient](https://github.com/dorathoto/TransientScopedSingleton)
 
 **Tarefas:**  
-Enviar print do startup contendo o Serviço criado em aula  
+Enviar print do startup contendo o Serviço criado pelo vídeo do Macoratti
 **Quem enviou:**
 
 ---
