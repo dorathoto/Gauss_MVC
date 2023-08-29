@@ -27,8 +27,6 @@ Computador com os seguintes programas instalados:
 - Visual Studio 2022 Community ou superior ([Wiki como instalar](https://github.com/dorathoto/Gauss_MVC/wiki/Como-Instalar-Visual-Studio))
 - .NET 6 SDK x64 https://dotnet.microsoft.com/en-us/download
 - GIT https://git-scm.com/download/win   ([Comandos básicos](https://github.com/dorathoto/Gauss_MVC/wiki/Comandos-B%C3%A1sicos-do-Git))
-- SMSS?
-
 
 ### Curso extra
 Lembrando que o curso baixo é de MVC ou seja, não é específicamente de C#, para isso se tiver dúvidas de como criar um if, switch ou uma classe, reveja os vídeos básicos do C#
@@ -70,6 +68,7 @@ _4\. NET 6 - Controllers e Views_ 35'
 
 **EXTRAS**
 [Singleton, Scoped, Transient](https://nelson-souza.medium.com/net-core-dependency-injection-1c1900d1bef)
+[Projeto de teste Singleton, scoped, transient](https://github.com/dorathoto/TransientScopedSingleton)
 
 **Tarefas:**  
 Enviar print do startup contendo o Serviço criado em aula  
