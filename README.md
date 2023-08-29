@@ -67,7 +67,9 @@ _4\. NET 6 - Controllers e Views_ 35'
 - [5\. Bootstrap Ajustando o código para exibir os lanches 6'](https://drive.google.com/file/d/1bqzJ2UUSY41vrevfEqHNvkVuk4WYLGEc/view?usp=drive_link)
 
 **EXTRAS**
+
 [Singleton, Scoped, Transient](https://nelson-souza.medium.com/net-core-dependency-injection-1c1900d1bef)
+
 [Projeto de teste Singleton, scoped, transient](https://github.com/dorathoto/TransientScopedSingleton)
 
 **Tarefas:**  
