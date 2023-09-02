@@ -75,7 +75,7 @@ _4\. NET 6 - Controllers e Views_ 35'
 **Tarefas:**  
 Enviar print do startup contendo o Serviço criado pelo vídeo do Macoratti
 
-**Quem enviou:** Thiago, Kazuo
+**Quem enviou:** Thiago, Kazuo, Elora
 
 ---
 
