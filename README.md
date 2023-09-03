@@ -75,7 +75,7 @@ _4\. NET 6 - Controllers e Views_ 35'
 **Tarefas:**  
 Enviar print do startup contendo o Serviço criado pelo vídeo do Macoratti
 
-**Quem enviou:** Thiago, Kazuo, Elora, Lucas, Denise 
+**Quem enviou:** Thiago, Kazuo, Elora, Lucas, Denise, Renam 
 
 ---
 
@@ -302,6 +302,6 @@ _3\. NET 6 - Modelo de Dominio - Entity Framework Core_ 48'
 **Tarefas:**  
 Enviar print no grupo com a foto do carousel e print do AppDbContext com os 2 DbSet\<>  
 
-**Quem enviou:** Thiago; Kazuo; Gabi; Denise; Lucas, Renam, Renato , Elora, Pedro, 
+**Quem enviou:** Thiago; Kazuo; Gabi; Denise; Lucas, Renam, Renato , Elora, Pedro, Viviane , 1/2 JV
 
 ---
