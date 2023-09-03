@@ -302,6 +302,6 @@ _3\. NET 6 - Modelo de Dominio - Entity Framework Core_ 48'
 **Tarefas:**  
 Enviar print no grupo com a foto do carousel e print do AppDbContext com os 2 DbSet\<>  
 
-**Quem enviou:** Thiago; Kazuo; Gabi; Denise; Lucas, Renam, Renato , Elora, Pedro, Viviane , 1/2 JV
+**Quem enviou:** Thiago; Kazuo; Gabi; Denise; Lucas, Renam, Renato , Elora, Pedro, Viviane , 1/2 JV, Leandro 
 
 ---
