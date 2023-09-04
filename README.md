@@ -39,45 +39,6 @@ Abaixo o conteúdo separado por semanas, verifique a data
 
 ---
 
-### Semana 3 - 28/08 - 03/09
-
-> Objetivo: Migration e Entender ViewData
-
-Leia as observações dos vídeos, [clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-3)
-
-**Assistir:** 101'
-
-- [7\. Apresentando o Migrations do EF Core 11'](https://drive.google.com/file/d/1YubxtuYdBJF0knkTMm7DaHeraNYKeD2n/view?usp=drive_link)
-- [8\. Aplicando os atributos Data Annotations 7'](https://drive.google.com/file/d/1ZR_e0uBUV97sXJHdGcDWysCDygjN4ljI/view?usp=drive_link)
-- [9\. Aplicando o Migrations no projeto 9'](https://drive.google.com/file/d/1ZhoUyRx95D55eJ0AYJVtN_Zp9x9y7Y6J/view?usp=drive_link)
-- [10\. Como popular as tabelas usando o Migrations 5'](https://drive.google.com/file/d/1Yv7WncErbQv3bKYaBJlEdWXdwgYGHw9g/view?usp=drive_link)
-- [11\. Populando a tabela Categorias com dados iniciais 5'](https://drive.google.com/file/d/1Zo1ueq5ZDiSt8XXBfGbIiSVGqMbdShTp/view?usp=drive_link)
-- [12\. Populando a tabela Lanches com dados iniciais 5'](https://drive.google.com/file/d/1_AWLE3giMUlKUdEJPBv3y33zPFcw_ooD/view?usp=drive_link)
-- [13\. Apresentando o padrão Repository 5'](https://drive.google.com/file/d/1YlxFXLjaonZXjGap2nKIZ1XmPWs9Xbvw/view?usp=drive_link)
-- [14\. Implementand o padrão Repository para Categoria 7'](https://drive.google.com/file/d/1Zz-xPhQo8aSZ5vtA6-Bjyn5s6bePu_9g/view?usp=drive_link)
-- [15\. Implementando o padrão Repository para Lanches 9'](https://drive.google.com/file/d/1_2DB-Ppk58VR8J2MHh50p2kmZCyP6KX9/view?usp=drive_link)
-- [16\. Registrando o serviço dos repositórios Injeção de Dependência 8'](https://drive.google.com/file/d/1YyjzojS2EXBCFoxCtyUL4NntY72mcTSu/view?usp=drive_link)
-
-_4\. NET 6 - Controllers e Views_ 35'
-
-- [1\. Criando o Controller a View para exibir os lanches 9'](https://drive.google.com/file/d/1cIh8lyAXUXgjg5DfL4K1AfahyBbkdBa5/view?usp=drive_link)
-- [2\. Ajustando o código da View List 6'](https://drive.google.com/file/d/1bFG3vs1c3ZEqRyyaXaojkRyQtMNygENK/view?usp=drive_link)
-- [3\. Conceitos ViewData, ViewBag e TempData 9'](https://drive.google.com/file/d/1bPgQDuEbyUwudVUxd__fcE1aIwjlvYH_/view?usp=drive_link)
-- [4\. Conceitos \_ViewStart e \_ViewImports 5'](https://drive.google.com/file/d/1aTRm905aXlu3FKzSv2c5YCZQHXtCMUwb/view?usp=drive_link)
-- [5\. Bootstrap Ajustando o código para exibir os lanches 6'](https://drive.google.com/file/d/1bqzJ2UUSY41vrevfEqHNvkVuk4WYLGEc/view?usp=drive_link)
-
-**EXTRAS**
-
-[Singleton, Scoped, Transient](https://nelson-souza.medium.com/net-core-dependency-injection-1c1900d1bef)
-
-[Projeto de teste Singleton, scoped, transient](https://github.com/dorathoto/TransientScopedSingleton)
-
-**Tarefas:**  
-Enviar print do startup contendo o Serviço criado pelo vídeo do Macoratti
-
-**Quem enviou:** Thiago, Kazuo, Elora, Lucas, Denise, Renam 
-
----
 
 ### Semana 4 - 4/09 - 10/09
 
@@ -303,5 +264,45 @@ _3\. NET 6 - Modelo de Dominio - Entity Framework Core_ 48'
 Enviar print no grupo com a foto do carousel e print do AppDbContext com os 2 DbSet\<>  
 
 **Quem enviou:** Thiago; Kazuo; Gabi; Denise; Lucas, Renam, Renato , Elora, Pedro, Viviane , 1/2 JV, Leandro 
+
+---
+
+### Semana 3 - 28/08 - 03/09
+
+> Objetivo: Migration e Entender ViewData
+
+Leia as observações dos vídeos, [clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-3)
+
+**Assistir:** 101'
+
+- [7\. Apresentando o Migrations do EF Core 11'](https://drive.google.com/file/d/1YubxtuYdBJF0knkTMm7DaHeraNYKeD2n/view?usp=drive_link)
+- [8\. Aplicando os atributos Data Annotations 7'](https://drive.google.com/file/d/1ZR_e0uBUV97sXJHdGcDWysCDygjN4ljI/view?usp=drive_link)
+- [9\. Aplicando o Migrations no projeto 9'](https://drive.google.com/file/d/1ZhoUyRx95D55eJ0AYJVtN_Zp9x9y7Y6J/view?usp=drive_link)
+- [10\. Como popular as tabelas usando o Migrations 5'](https://drive.google.com/file/d/1Yv7WncErbQv3bKYaBJlEdWXdwgYGHw9g/view?usp=drive_link)
+- [11\. Populando a tabela Categorias com dados iniciais 5'](https://drive.google.com/file/d/1Zo1ueq5ZDiSt8XXBfGbIiSVGqMbdShTp/view?usp=drive_link)
+- [12\. Populando a tabela Lanches com dados iniciais 5'](https://drive.google.com/file/d/1_AWLE3giMUlKUdEJPBv3y33zPFcw_ooD/view?usp=drive_link)
+- [13\. Apresentando o padrão Repository 5'](https://drive.google.com/file/d/1YlxFXLjaonZXjGap2nKIZ1XmPWs9Xbvw/view?usp=drive_link)
+- [14\. Implementand o padrão Repository para Categoria 7'](https://drive.google.com/file/d/1Zz-xPhQo8aSZ5vtA6-Bjyn5s6bePu_9g/view?usp=drive_link)
+- [15\. Implementando o padrão Repository para Lanches 9'](https://drive.google.com/file/d/1_2DB-Ppk58VR8J2MHh50p2kmZCyP6KX9/view?usp=drive_link)
+- [16\. Registrando o serviço dos repositórios Injeção de Dependência 8'](https://drive.google.com/file/d/1YyjzojS2EXBCFoxCtyUL4NntY72mcTSu/view?usp=drive_link)
+
+_4\. NET 6 - Controllers e Views_ 35'
+
+- [1\. Criando o Controller a View para exibir os lanches 9'](https://drive.google.com/file/d/1cIh8lyAXUXgjg5DfL4K1AfahyBbkdBa5/view?usp=drive_link)
+- [2\. Ajustando o código da View List 6'](https://drive.google.com/file/d/1bFG3vs1c3ZEqRyyaXaojkRyQtMNygENK/view?usp=drive_link)
+- [3\. Conceitos ViewData, ViewBag e TempData 9'](https://drive.google.com/file/d/1bPgQDuEbyUwudVUxd__fcE1aIwjlvYH_/view?usp=drive_link)
+- [4\. Conceitos \_ViewStart e \_ViewImports 5'](https://drive.google.com/file/d/1aTRm905aXlu3FKzSv2c5YCZQHXtCMUwb/view?usp=drive_link)
+- [5\. Bootstrap Ajustando o código para exibir os lanches 6'](https://drive.google.com/file/d/1bqzJ2UUSY41vrevfEqHNvkVuk4WYLGEc/view?usp=drive_link)
+
+**EXTRAS**
+
+[Singleton, Scoped, Transient](https://nelson-souza.medium.com/net-core-dependency-injection-1c1900d1bef)
+
+[Projeto de teste Singleton, scoped, transient](https://github.com/dorathoto/TransientScopedSingleton)
+
+**Tarefas:**  
+Enviar print do startup contendo o Serviço criado pelo vídeo do Macoratti
+
+**Quem enviou:** Thiago, Kazuo, Elora, Lucas, Denise, Renam 
 
 ---
