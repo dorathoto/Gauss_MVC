@@ -1,20 +1,16 @@
-﻿@model IEnumerable<LanchesMac.Models.Lanche>
+﻿@model LanchesMac.ViewModels.LancheListViewModel
 
 <div>
-    <h2>@ViewData["Titulo"]</h2>
+    <h2>@Model.CategoriaAtual</h2>
 </div>
-<h2>@ViewData["Data"]</h2>
-<hr />
-<h3>@ViewBag.Total</h3>
-<hr />
 
-<h1>@TempData["Nome"]</h1>
+<div class="container">
+    <div class="row">
+        @foreach (var lanche in Model.Lanches)
+        {
+           @*  <partial name="_LanchesResumo" for="@lanche" /> *@
 
-@foreach (var lanche in Model)
-{
-    <div>
-        <h4>@lanche.Nome</h4>
-        <p><img src="@lanche.ImagemUrl"></p>
-        <h3>Preço : @lanche.Preco.ToString("c")</h3>
+            @await Html.PartialAsync("_LanchesResumo", lanche)
+        }
     </div>
-}
+</div>

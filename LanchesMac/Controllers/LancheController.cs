@@ -1,4 +1,5 @@
 ﻿using LanchesMac.Repositories.Interfaces;
+using LanchesMac.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LanchesMac.Controllers
@@ -11,18 +12,20 @@ namespace LanchesMac.Controllers
             _lancheRepository = lancheRepository;
         }
 
-        public IActionResult List()
+        public async Task<IActionResult> List()
         {
             ViewData["Titulo"] = "Todos os lanches";
             ViewData["Data"] = DateTime.Now;
-            var lanches = _lancheRepository.Lanches;
+            var lanchesListViewModel = new LancheListViewModel();
+            lanchesListViewModel.Lanches = _lancheRepository.Lanches;
+            lanchesListViewModel.CategoriaAtual = "Categoria Atual";
 
 
-            var totalLanches = lanches.Count();
+            var totalLanches = lanchesListViewModel.Lanches.Count();
             ViewBag.Total = "Total de lanches: " + totalLanches;
 
             
-            return View(lanches);
+            return View(lanchesListViewModel);
         }
     }
 }
