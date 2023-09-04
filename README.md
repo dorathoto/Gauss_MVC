@@ -27,8 +27,6 @@ Computador com os seguintes programas instalados:
 - Visual Studio 2022 Community ou superior ([Wiki como instalar](https://github.com/dorathoto/Gauss_MVC/wiki/Como-Instalar-Visual-Studio))
 - .NET 6 SDK x64 https://dotnet.microsoft.com/en-us/download
 - GIT https://git-scm.com/download/win   ([Comandos básicos](https://github.com/dorathoto/Gauss_MVC/wiki/Comandos-B%C3%A1sicos-do-Git))
-- SMSS?
-
 
 ### Curso extra
 Lembrando que o curso baixo é de MVC ou seja, não é específicamente de C#, para isso se tiver dúvidas de como criar um if, switch ou uma classe, reveja os vídeos básicos do C#
@@ -40,6 +38,187 @@ Lembrando que o curso baixo é de MVC ou seja, não é específicamente de C#, p
 Abaixo o conteúdo separado por semanas, verifique a data
 
 ---
+
+
+### Semana 4 - 4/09 - 10/09
+
+> Objetivo: e ViewModel
+
+**Assistir:** 181'
+
+- [6\. Apresentando o conceito de ViewModel 5'](https://drive.google.com/file/d/1ba8W50xGeJ5oUnQ63l_xfBnb2HTDMCxA/view?usp=drive_link)
+- [7\. Implementando a view model LancheListViewModel 6'](https://drive.google.com/file/d/1b_-AfEtN5LbIXR9QaDNx8GjohiifVGpH/view?usp=drive_link)
+- [8\. Apresentando Partial Views 7'](https://drive.google.com/file/d/1aKo84wh95nY3gQR_fe3YdT7xipvP_r64/view?usp=drive_link)
+- [9\. Criando a partial view \_LanchesResumo 5'](https://drive.google.com/file/d/1cqOoPRaauYAQyDxXFfAorQhE3l5ShTeq/view?usp=drive_link)
+- [10\. Criando os itens do Carrinho de Compras Conceitos 5'](https://drive.google.com/file/d/1Rub_BUSD9HikPXMLG8apgjGSYWibNMlT/view?usp=drive_link)
+- [11\. Implementando os itens do carrinho de compras 6'](https://drive.google.com/file/d/1bxtUgBgvOravleNiu_nRev9KytCt6kXX/view?usp=drive_link)
+- [12\. Apresentando o conceito de Session 5'](https://drive.google.com/file/d/1bS6gIulptCLY4_pp8XGDCks5vIYrVmYD/view?usp=drive_link)
+- [13\. Configurando Session e HttpContext 4'](https://drive.google.com/file/d/1bxq4rTx6XmyPEXYb1TO-jtS5fME3YpXM/view?usp=drive_link)
+- [14\. Criando o Carrinho de Compras 9'](https://drive.google.com/file/d/1S1EzD-_7Gvr3-SdFoeqsZAe0X1B356xW/view?usp=drive_link)
+- [15\. Adicionar Itens ao Carrinho de Compras 4'](https://drive.google.com/file/d/1bN5fnRozq4Ip-XeCJ9LtalkzLBtlapPc/view?usp=drive_link)
+- [16\. Remover itens do Carrinho de Compras 3'](https://drive.google.com/file/d/1bEoriwIkDWf5H8ISScSOE0Q_X_8ybfOB/view?usp=drive_link)
+- [17\. Concluindo o Carrinho de Compras 5'](https://drive.google.com/file/d/1ay_3TsLQj1_ybZW9B4Hn4H3GDEWvQ36T/view?usp=drive_link)
+- [18\. Criando o Controlador para gerenciar os itens do carrinho de compras 10'](https://drive.google.com/file/d/1beUnXmaGWpDweN1aAE7mzdFRXEehDkl9/view?usp=drive_link)
+- [19\. Criando o Controlador para gerenciar os itens do carrinho de compras - II 7'](https://drive.google.com/file/d/1b9eDe5r0N4fgQrMve9QwAp_efkt3UFqI/view?usp=drive_link)
+- [20\. Criando a View para exibir os itens do carrinho de compras 10'](https://drive.google.com/file/d/1d8wOL-cz8r72eUnNNgYw774tsofoXlB4/view?usp=drive_link)
+- [21\. Exibindo os lanches preferidos 7'](https://drive.google.com/file/d/1amrMiM8HNyIqh9WT93-H6P0msqx8XIPA/view?usp=drive_link)
+- [22\. Apresentando o conceito de ViewComponent 4'](https://drive.google.com/file/d/1d-cBElPx39HFp7MM7PpVGjL22jgoOhlM/view?usp=drive_link)
+- [23\. Criando uma ViewComponent para exibir detalhes do carrinho 12'](https://drive.google.com/file/d/1bE9NBiu9CjiLiH_g15n99VV1aLB8-EGy/view?usp=drive_link)
+- [24\. Apresentando o conceito de TagHelpers 5'](https://drive.google.com/file/d/1aUQPE7d9r9YAOukGgACHFxKH6l36Sz61/view?usp=drive_link)
+- [25\. Criando uma TagHelper 9'](https://drive.google.com/file/d/1alJPxR7-kPk7TmZwA6TCm1wXMOVSscoF/view?usp=drive_link)
+- [26\. Ajustando o LancheController para exibir lanches por categoria 8'](https://drive.google.com/file/d/1bYGMKVH8CsMjPSyybuvHm73pMFuZ8tx9/view?usp=drive_link)
+- [27\. Apresentando os conceitos sobre Roteamento 8'](https://drive.google.com/file/d/1cQkx8YJwpexI1b3tPJ5c2Y4BL3-xncBz/view?usp=drive_link)
+- [28\. Múltiplas Rotas - Criando a rota para exibir lanches por categoria 11'](https://drive.google.com/file/d/1bDEhYyj3Jc99byAqcPoIkHZi5q-RUyWh/view?usp=drive_link)
+- [29\. Criar View Componente para exibir as categorias no menu Lanches 10'](https://drive.google.com/file/d/1adVpWkOeRk2WGiCn6e1kiS-myN6f-rVW/view?usp=drive_link)
+- [30\. Otimizando o método Action List de LancheController 6'](https://drive.google.com/file/d/1bhyBYrYqHht4nJoI7DTX8Q1RTWIDKOEC/view?usp=drive_link)
+- [31\. Incluindo um link e um button na exibição dos lanches 10'](https://drive.google.com/file/d/1bJkABFyCawYNKvmeSinrnOxiEGqPNoDe/view?usp=drive_link)
+
+**EXTRAS:**
+
+**Tarefas:**  
+Enviar print da Solution contendo todas as novas classes  
+**Quem enviou:**
+
+---
+
+### Semana 5 - 11/09 - 17/09
+
+> Objetivo: REVISÃO GERAL ou colocar em Dia a matéria.
+
+  
+**Tarefas:**  
+Enviar um print e url, de um repositório no github com o conteúdo até aqui.
+
+**Quem enviou:**
+
+-----
+
+### Semana 6 - 18/09 - 24/09
+
+**Assistir:** 148'  
+_5\. NET 6 - Pedidos Ajustando o Modelo - Migrations_ 63'
+
+- [1\. Pedidos - Expandindo o modelo de domínio 12'](https://drive.google.com/file/d/1dp14ehblFjmbbYv9qx3fYYavPNpWzz37/view?usp=drive_link)
+- [2\. Criando o repositório para os pedidos 8'](https://drive.google.com/file/d/1dfkxfl6OUqDv7eSHygsXaNanlof3VoC9/view?usp=drive_link)
+- [3\. Localizando lanches por nome - Search 7'](https://drive.google.com/file/d/1d_MpdoxbAeQ2YSUq5PUJxdErjepnjQmH/view?usp=drive_link)
+- [4\. Criando o controlador PedidoController 8'](https://drive.google.com/file/d/1dVjoJQhYqYQLWQm6WaiPO7dD4sqxnH5j/view?usp=drive_link)
+- [5\. Criando a view Checkout 6'](https://drive.google.com/file/d/1db58Cdmf-mU40uKIrVvbjVmFoqRZWk4N/view?usp=drive_link)
+- [6\. Criando o método Action Checkout (HttpPost) 8'](https://drive.google.com/file/d/1dh8Pxeie9NiLsLdzps0ZKS5x5qnp8Yx3/view?usp=drive_link)
+- [7\. Criando a view CheckoutCompleto - Exibindo um resumo do pedido 9'](https://drive.google.com/file/d/1dutkhFPYk72NzfbD8UMfZSFidob8tNlI/view?usp=drive_link)
+- [8\. Criando um layout alternativo para o site de lanches 5'](https://drive.google.com/file/d/1dHkMcupWrwww_dDlgiNDyTVTjfKsjGqz/view?usp=drive_link)
+
+_6\. NET 6 - Identity Autenticação e Autorização_ 85'
+
+- [1\. Autenticação e Autorização 14'](https://drive.google.com/file/d/1QCoJItnbblqXVuAeIROMj8O2a8IfWugA/view?usp=drive_link)
+- [2\. Configurando o Identity no projeto 11'](https://drive.google.com/file/d/1QRcky-pOS-pGjXlmwlOzcWScLyoppaYR/view?usp=drive_link)
+- [3\. Implementando o Login - I 7'](https://drive.google.com/file/d/1QUWVJa0h1DdHnj--CqrFGmf-LIS0-MhX/view?usp=drive_link)
+- [4\. Implementando o Login - II 7'](https://drive.google.com/file/d/1PzSjASBK-bNOqemzMw7Pm01S6YrJLP8k/view?usp=drive_link)
+- [5\. Criando a View Login 8'](https://drive.google.com/file/d/1Q9BFb0lsyPBpHSJWa53ZlrqDw58JE5bh/view?usp=drive_link)
+- [6\. Implementando o Registro - I 7'](https://drive.google.com/file/d/1Q2UJUPDvwqlyPwknnCBz3vvFDR0gJwg-/view?usp=drive_link)
+- [7\. Criando a View Register 10'](https://drive.google.com/file/d/1QdDJmvERtbj1coL074w9BuYfuxvP2JXm/view?usp=drive_link)
+- [8\. Implementando o Logout 10'](https://drive.google.com/file/d/1QV2THLCjpQ6QHzt5mbWdQExubLpmyIo8/view?usp=drive_link)
+- [9\. Implementando a autorização - Authorize 11'](https://drive.google.com/file/d/1QD79UmyvDtI0JXFQSmBAKDX0rqHFqX1T/view?usp=drive_link)
+
+**EXTRAS:**
+  
+**Tarefas:**  
+Enviar  
+**Quem enviou:**
+
+
+-----
+
+### Semana 7 - 25/09 - 01/10
+
+> Objetivo:
+
+
+**Assistir:** 183'
+
+
+_7. NET 6 - Àrea de Administração_ 65'
+
+- [1. Apresentando o conceito de Areas - Criando a Área Admin 9'](https://drive.google.com/file/d/1a1xi4iT2MJBFgv0lzGCEYTZsBl3bbtSU/view?usp=drive_link)
+- [2. Area Admin - Configuração e criação do AdminController 8'](https://drive.google.com/file/d/1a08h7cTPmAx-MDt4kUi1yK5GhAzdq9AT/view?usp=drive_link)
+- [3. Roteiro para implementar o perfil para o usuário Admin 7'](https://drive.google.com/file/d/1_se7W953ce9Xn5C0Za_mak4saizHq--9/view?usp=drive_link)
+- [4. Definindo o perfil para o usuário Admin 11'](https://drive.google.com/file/d/1a3SPbXhfR0kDk9hC0hy_smFH47Tk2ksY/view?usp=drive_link)
+- [5. Testando a implementação do perfil  Admin 6'](https://drive.google.com/file/d/1_raqXhFGCLWywJznWApgjpdsyA_Ex3_L/view?usp=drive_link)
+- [6. Criando a view AccessDenied e o menu para o usuário Admin 6'](https://drive.google.com/file/d/1a2l_uXsNh2moOUlGaMefHmOsEaJ64nD7/view?usp=drive_link)
+- [7. Criar os controladores e views para gerenciar lanches, categorias e pedidos - I 11'](https://drive.google.com/file/d/1_lWCd6IPUAfxSMqWca_2FYxECJ_xOBgi/view?usp=drive_link)
+- [8. Criar os controladores e views para gerenciar lanches, categorias e pedidos - II 7'](https://drive.google.com/file/d/1_z1QK0n6zA_wdtnAedv61PHH78uqgfdu/view?usp=drive_link)
+
+_8. NET 6 - Novas Funcionalidades - Paginação, Filtro de dados, Detalhes do Pedido_ 69'
+
+- [1. Roteiro implementar a paginção, filtro de dados e demais ajustes 10'](https://drive.google.com/file/d/1Vpb_SPx9d0L-bn7_vixBRGpcgnQPkX3F/view?usp=drive_link)
+- [2. Implementando a paginção e filtro de dados 12'](https://drive.google.com/file/d/1VSL7OwoGnjPwy9TA44m5HA6WNx6GrhGk/view?usp=drive_link)
+- [3. Implementando a paginção para Lanches 10'](https://drive.google.com/file/d/1Vilwo9dKonRBiEzJ_1vp4r5yM2MGLNIp/view?usp=drive_link)
+- [4. Roteiro e implementação dos detalhes do pedido na Área Admin 10'](https://drive.google.com/file/d/1VHSQnmDHfTfSdCW32XiUq5ODMx_reZGV/view?usp=drive_link)
+- [5. Implementação dos detalhes do pedido - Explicação detalhada 14'](https://drive.google.com/file/d/1VfOiivW-TXiQ7fDp3-JT0kpznLTgi27-/view?usp=drive_link)
+- [6. Criando o relatório de pedidos por período 13'](https://drive.google.com/file/d/1VGO2RWN0jNGZdzd6yytbpTzuFsn3og7u/view?usp=drive_link)
+
+_9. NET 6 - Gerenciamento de Imagens_  49'
+
+- [1. Gerenciamento de Imagens - Conceitos, abordagem e roteiro de configuração 11'](https://drive.google.com/file/d/1NGeT6g4V5S5DW622Y5tnaopxwFtmN5Ec/view?usp=drive_link)
+- [2. Implementação - Configuração e criação dos arquivos da infraestrutura 6'](https://drive.google.com/file/d/1MyjAtxrveD9u-zzJt9CIRDw9cPShmDAj/view?usp=drive_link)
+- [3. Implementação - Exibindo as opções para Upload e Consulta de imagens 12'](https://drive.google.com/file/d/1N6fCYqWnM17eo_EdaYcyKB8ZkTxLtGb0/view?usp=drive_link)
+- [4. Implementação - Enviando arquivos 11'](https://drive.google.com/file/d/1N4vmGM9hg_0nG9UZZafvCOdgTm8yRONw/view?usp=drive_link)
+- [5. Implementação - Exibindo e Deletando imagens 9'](https://drive.google.com/file/d/1N4rKsjGGbmMf5Jp88rqkFDGGeOiBdAqw/view?usp=drive_link)
+
+**EXTRAS:**
+
+**Tarefas:**  
+Enviar  
+**Quem enviou:**
+
+
+-----
+
+### Semana 8 - 02/10 - 08/10
+
+> Objetivo:
+
+
+**Assistir:** 123'
+
+_10. NET 6 - Gerando gráficos com o GoogleChart_ 53'
+
+- [1. Gerando gráficos usando a biblioteca GoogleChart - Criando o modelo de dominio 5'](https://drive.google.com/file/d/1WCB3wc2EBF2d_MihUKk-UvPSr6RzetQE/view?usp=drive_link)
+- [2. Criando o serviço para gerar os dados para os gráficos 10'](https://drive.google.com/file/d/1W5-m-uUMDxQ_vsQoNzKLVwUIauecFnAu/view?usp=drive_link)
+- [3. Criando o controlador e os métodos Actions		4'](https://drive.google.com/file/d/1Wx02dBwG-rJq0lQxpFtVsV9ozsOBkoHu/view?usp=drive_link)
+- [4. Criando o menu com as opções dos gráficos 		4'](https://drive.google.com/file/d/1VyiuP2wJZrfc7LsnhCn5kvKB0fyaH8bs/view?usp=drive_link)
+- [5. Criando a view Index para gerar o gráfico de barras 8'](https://drive.google.com/file/d/1WCNsG4FoJWnT8QbIdRzaCvv-sJbwsO81/view?usp=drive_link)
+- [6. Criando a view VendasMensal par gerar o gráfico de coluna 9'](https://drive.google.com/file/d/1W5iLfkJc5iRAKnpWbGZk7zhHJI1ooiWV/view?usp=drive_link)
+- [7. Criando a View VendasSemanal para gerar o gráfico de linha 8'](https://drive.google.com/file/d/1W-WE0q57DQkBunL3JUP3WG5ukMmNayYR/view?usp=drive_link)
+- [8. Criando um rodapé e inserindo uma imagem ao título do site 5'](https://drive.google.com/file/d/1W8lp43lLD2WjB95RLzVjHfIGPJls6cTy/view?usp=drive_link)
+
+_11. NET 6 - Migrando o código da classe Startup para a classe Program_ 17'
+- [1. Registrando os serviços e configurando os middlewares na classe Program 6'](https://drive.google.com/file/d/1O8OPzoZfBPS3luPksL1CKgqM3uZ1d-QD/view?usp=drive_link)
+- [2. Implementando a configuração na classe Program e removendo a classe Startup 9'](https://drive.google.com/file/d/1NjYwh7cbk2p_RmQDt1Z9n5lthE6vjP4m/view?usp=drive_link)
+
+_12. NET 6  - Deploy do projeto no IIS_ 13'
+- [1. Fazendo o Deploy no IIS remoto (Host Azul) 13'](https://drive.google.com/file/d/1_eXS-Y2MgYSR_smmrRTcva7FQWP2pnc1/view?usp=drive_link)
+
+_13. NET 6  - Gerando Relatórios e PDF usando o FastReport OpenSource_ 40'
+- [1. Configurando o projeto para usar o FastReport 7'](https://drive.google.com/file/d/1S4imSJxQ-e3Uvaz6M7z_Qt2P6rBSphrz/view?usp=drive_link)
+- [2. Criando o leiaute do relatório usando o Designer 9'](https://drive.google.com/file/d/1SAK7dIJj7aF7zDni4mYL0ZGfSZbAVfrr/view?usp=drive_link)
+- [3. Criando os serviços para obter os dados 6'](https://drive.google.com/file/d/1SLxsPxzuGSTiE0e1xlXOgpKI6HmLdFVv/view?usp=drive_link)
+- [4. Criando o Controller e a View para gerar o relatório 11'](https://drive.google.com/file/d/1SCvz1TKaGNMCH3mJUngj2CKsNtvn7_nh/view?usp=drive_link)
+- [5. Gerando o relatório no formato PDF 7'](https://drive.google.com/file/d/1S3JfSiECEC0fHWF3WpK3QwwgehTfgUhe/view?usp=drive_link)
+
+**EXTRAS:**
+
+**Tarefas:**  
+Enviar  
+**Quem enviou:**
+
+
+-----------------
+
+
+# Semanas já concluídas
+
+
+
 
 ### Semana 1 - 14/08 - 20/08
 
@@ -96,13 +275,15 @@ _3\. NET 6 - Modelo de Dominio - Entity Framework Core_ 48'
 **Tarefas:**  
 Enviar print no grupo com a foto do carousel e print do AppDbContext com os 2 DbSet\<>  
 
-**Quem enviou:** Thiago; 
+**Quem enviou:** Thiago; Kazuo; Gabi; Denise; Lucas, Renam, Renato , Elora, Pedro, Viviane , 1/2 JV, Leandro 
 
 ---
 
 ### Semana 3 - 28/08 - 03/09
 
 > Objetivo: Migration e Entender ViewData
+
+Leia as observações dos vídeos, [clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-3)
 
 **Assistir:** 101'
 *OBS:* Todas observações desses vídeos estão [aqui na wiki] (https://github.com/dorathoto/Gauss_MVC/wiki/Semana-3)
@@ -125,169 +306,15 @@ _4\. NET 6 - Controllers e Views_ 35'
 - [4\. Conceitos \_ViewStart e \_ViewImports 5'](https://drive.google.com/file/d/1aTRm905aXlu3FKzSv2c5YCZQHXtCMUwb/view?usp=drive_link)
 - [5\. Bootstrap Ajustando o código para exibir os lanches 6'](https://drive.google.com/file/d/1bqzJ2UUSY41vrevfEqHNvkVuk4WYLGEc/view?usp=drive_link)
 
+**EXTRAS**
+
+[Singleton, Scoped, Transient](https://nelson-souza.medium.com/net-core-dependency-injection-1c1900d1bef)
+
+[Projeto de teste Singleton, scoped, transient](https://github.com/dorathoto/TransientScopedSingleton)
+
 **Tarefas:**  
-Enviar print do startup contendo o Serviço criado em aula  
-**Quem enviou:**
+Enviar print do startup contendo o Serviço criado pelo vídeo do Macoratti
+
+**Quem enviou:** Thiago, Kazuo, Elora, Lucas, Denise, Renam 
 
 ---
-
-### Semana 4 - 4/09 - 10/09
-
-> Objetivo: e ViewModel
-
-**Assistir:** 181'
-
-- [6\. Apresentando o conceito de ViewModel 5'](https://drive.google.com/file/d/1ba8W50xGeJ5oUnQ63l_xfBnb2HTDMCxA/view?usp=drive_link)
-- [7\. Implementando a view model LancheListViewModel 6'](https://drive.google.com/file/d/1b_-AfEtN5LbIXR9QaDNx8GjohiifVGpH/view?usp=drive_link)
-- [8\. Apresentando Partial Views 7'](https://drive.google.com/file/d/1aKo84wh95nY3gQR_fe3YdT7xipvP_r64/view?usp=drive_link)
-- [9\. Criando a partial view \_LanchesResumo 5'](https://drive.google.com/file/d/1cqOoPRaauYAQyDxXFfAorQhE3l5ShTeq/view?usp=drive_link)
-- [10\. Criando os itens do Carrinho de Compras Conceitos 5'](https://drive.google.com/file/d/1Rub_BUSD9HikPXMLG8apgjGSYWibNMlT/view?usp=drive_link)
-- [11\. Implementando os itens do carrinho de compras 6'](https://drive.google.com/file/d/1bxtUgBgvOravleNiu_nRev9KytCt6kXX/view?usp=drive_link)
-- [12\. Apresentando o conceito de Session 5'](https://drive.google.com/file/d/1bS6gIulptCLY4_pp8XGDCks5vIYrVmYD/view?usp=drive_link)
-- [13\. Configurando Session e HttpContext 4'](https://drive.google.com/file/d/1bxq4rTx6XmyPEXYb1TO-jtS5fME3YpXM/view?usp=drive_link)
-- [14\. Criando o Carrinho de Compras 9'](https://drive.google.com/file/d/1S1EzD-_7Gvr3-SdFoeqsZAe0X1B356xW/view?usp=drive_link)
-- [15\. Adicionar Itens ao Carrinho de Compras 4'](https://drive.google.com/file/d/1bN5fnRozq4Ip-XeCJ9LtalkzLBtlapPc/view?usp=drive_link)
-- [16\. Remover itens do Carrinho de Compras 3'](https://drive.google.com/file/d/1bEoriwIkDWf5H8ISScSOE0Q_X_8ybfOB/view?usp=drive_link)
-- [17\. Concluindo o Carrinho de Compras 5'](https://drive.google.com/file/d/1ay_3TsLQj1_ybZW9B4Hn4H3GDEWvQ36T/view?usp=drive_link)
-- [18\. Criando o Controlador para gerenciar os itens do carrinho de compras 10'](https://drive.google.com/file/d/1beUnXmaGWpDweN1aAE7mzdFRXEehDkl9/view?usp=drive_link)
-- [19\. Criando o Controlador para gerenciar os itens do carrinho de compras - II 7'](https://drive.google.com/file/d/1b9eDe5r0N4fgQrMve9QwAp_efkt3UFqI/view?usp=drive_link)
-- [20\. Criando a View para exibir os itens do carrinho de compras 10'](https://drive.google.com/file/d/1d8wOL-cz8r72eUnNNgYw774tsofoXlB4/view?usp=drive_link)
-- [21\. Exibindo os lanches preferidos 7'](https://drive.google.com/file/d/1amrMiM8HNyIqh9WT93-H6P0msqx8XIPA/view?usp=drive_link)
-- [22\. Apresentando o conceito de ViewComponent 4'](https://drive.google.com/file/d/1d-cBElPx39HFp7MM7PpVGjL22jgoOhlM/view?usp=drive_link)
-- [23\. Criando uma ViewComponent para exibir detalhes do carrinho 12'](https://drive.google.com/file/d/1bE9NBiu9CjiLiH_g15n99VV1aLB8-EGy/view?usp=drive_link)
-- [24\. Apresentando o conceito de TagHelpers 5'](https://drive.google.com/file/d/1aUQPE7d9r9YAOukGgACHFxKH6l36Sz61/view?usp=drive_link)
-- [25\. Criando uma TagHelper 9'](https://drive.google.com/file/d/1alJPxR7-kPk7TmZwA6TCm1wXMOVSscoF/view?usp=drive_link)
-- [26\. Ajustando o LancheController para exibir lanches por categoria 8'](https://drive.google.com/file/d/1bYGMKVH8CsMjPSyybuvHm73pMFuZ8tx9/view?usp=drive_link)
-- [27\. Apresentando os conceitos sobre Roteamento 8'](https://drive.google.com/file/d/1cQkx8YJwpexI1b3tPJ5c2Y4BL3-xncBz/view?usp=drive_link)
-- [28\. Múltiplas Rotas - Criando a rota para exibir lanches por categoria 11'](https://drive.google.com/file/d/1bDEhYyj3Jc99byAqcPoIkHZi5q-RUyWh/view?usp=drive_link)
-- [29\. Criar View Componente para exibir as categorias no menu Lanches 10'](https://drive.google.com/file/d/1adVpWkOeRk2WGiCn6e1kiS-myN6f-rVW/view?usp=drive_link)
-- [30\. Otimizando o método Action List de LancheController 6'](https://drive.google.com/file/d/1bhyBYrYqHht4nJoI7DTX8Q1RTWIDKOEC/view?usp=drive_link)
-- [31\. Incluindo um link e um button na exibição dos lanches 10'](https://drive.google.com/file/d/1bJkABFyCawYNKvmeSinrnOxiEGqPNoDe/view?usp=drive_link)
-
-**EXTRAS:**
-
-**Tarefas:**  
-Enviar print da Solution contendo todas as novas classes  
-**Quem enviou:**
-
----
-
-### Semana 5 - 11/09 - 17/09
-
-> Objetivo:
-
-**Assistir:** 148'  
-_5\. NET 6 - Pedidos Ajustando o Modelo - Migrations_ 63'
-
-- [1\. Pedidos - Expandindo o modelo de domínio 12'](https://drive.google.com/file/d/1dp14ehblFjmbbYv9qx3fYYavPNpWzz37/view?usp=drive_link)
-- [2\. Criando o repositório para os pedidos 8'](https://drive.google.com/file/d/1dfkxfl6OUqDv7eSHygsXaNanlof3VoC9/view?usp=drive_link)
-- [3\. Localizando lanches por nome - Search 7'](https://drive.google.com/file/d/1d_MpdoxbAeQ2YSUq5PUJxdErjepnjQmH/view?usp=drive_link)
-- [4\. Criando o controlador PedidoController 8'](https://drive.google.com/file/d/1dVjoJQhYqYQLWQm6WaiPO7dD4sqxnH5j/view?usp=drive_link)
-- [5\. Criando a view Checkout 6'](https://drive.google.com/file/d/1db58Cdmf-mU40uKIrVvbjVmFoqRZWk4N/view?usp=drive_link)
-- [6\. Criando o método Action Checkout (HttpPost) 8'](https://drive.google.com/file/d/1dh8Pxeie9NiLsLdzps0ZKS5x5qnp8Yx3/view?usp=drive_link)
-- [7\. Criando a view CheckoutCompleto - Exibindo um resumo do pedido 9'](https://drive.google.com/file/d/1dutkhFPYk72NzfbD8UMfZSFidob8tNlI/view?usp=drive_link)
-- [8\. Criando um layout alternativo para o site de lanches 5'](https://drive.google.com/file/d/1dHkMcupWrwww_dDlgiNDyTVTjfKsjGqz/view?usp=drive_link)
-
-_6\. NET 6 - Identity Autenticação e Autorização_ 85'
-
-- [1\. Autenticação e Autorização 14'](https://drive.google.com/file/d/1QCoJItnbblqXVuAeIROMj8O2a8IfWugA/view?usp=drive_link)
-- [2\. Configurando o Identity no projeto 11'](https://drive.google.com/file/d/1QRcky-pOS-pGjXlmwlOzcWScLyoppaYR/view?usp=drive_link)
-- [3\. Implementando o Login - I 7'](https://drive.google.com/file/d/1QUWVJa0h1DdHnj--CqrFGmf-LIS0-MhX/view?usp=drive_link)
-- [4\. Implementando o Login - II 7'](https://drive.google.com/file/d/1PzSjASBK-bNOqemzMw7Pm01S6YrJLP8k/view?usp=drive_link)
-- [5\. Criando a View Login 8'](https://drive.google.com/file/d/1Q9BFb0lsyPBpHSJWa53ZlrqDw58JE5bh/view?usp=drive_link)
-- [6\. Implementando o Registro - I 7'](https://drive.google.com/file/d/1Q2UJUPDvwqlyPwknnCBz3vvFDR0gJwg-/view?usp=drive_link)
-- [7\. Criando a View Register 10'](https://drive.google.com/file/d/1QdDJmvERtbj1coL074w9BuYfuxvP2JXm/view?usp=drive_link)
-- [8\. Implementando o Logout 10'](https://drive.google.com/file/d/1QV2THLCjpQ6QHzt5mbWdQExubLpmyIo8/view?usp=drive_link)
-- [9\. Implementando a autorização - Authorize 11'](https://drive.google.com/file/d/1QD79UmyvDtI0JXFQSmBAKDX0rqHFqX1T/view?usp=drive_link)
-
-**EXTRAS:**
-  
-**Tarefas:**  
-Enviar  
-**Quem enviou:**
-
-
------
-
-### Semana 6 - 18/09 - 24/09
-
-> Objetivo:
-
-
-**Assistir:** 183'
-
-
-_7. NET 6 - Àrea de Administração_ 65'
-
-- [1. Apresentando o conceito de Areas - Criando a Área Admin 9'](https://drive.google.com/file/d/1a1xi4iT2MJBFgv0lzGCEYTZsBl3bbtSU/view?usp=drive_link)
-- [2. Area Admin - Configuração e criação do AdminController 8'](https://drive.google.com/file/d/1a08h7cTPmAx-MDt4kUi1yK5GhAzdq9AT/view?usp=drive_link)
-- [3. Roteiro para implementar o perfil para o usuário Admin 7'](https://drive.google.com/file/d/1_se7W953ce9Xn5C0Za_mak4saizHq--9/view?usp=drive_link)
-- [4. Definindo o perfil para o usuário Admin 11'](https://drive.google.com/file/d/1a3SPbXhfR0kDk9hC0hy_smFH47Tk2ksY/view?usp=drive_link)
-- [5. Testando a implementação do perfil  Admin 6'](https://drive.google.com/file/d/1_raqXhFGCLWywJznWApgjpdsyA_Ex3_L/view?usp=drive_link)
-- [6. Criando a view AccessDenied e o menu para o usuário Admin 6'](https://drive.google.com/file/d/1a2l_uXsNh2moOUlGaMefHmOsEaJ64nD7/view?usp=drive_link)
-- [7. Criar os controladores e views para gerenciar lanches, categorias e pedidos - I 11'](https://drive.google.com/file/d/1_lWCd6IPUAfxSMqWca_2FYxECJ_xOBgi/view?usp=drive_link)
-- [8. Criar os controladores e views para gerenciar lanches, categorias e pedidos - II 7'](https://drive.google.com/file/d/1_z1QK0n6zA_wdtnAedv61PHH78uqgfdu/view?usp=drive_link)
-
-_8. NET 6 - Novas Funcionalidades - Paginação, Filtro de dados, Detalhes do Pedido_ 69'
-
-- [1. Roteiro implementar a paginção, filtro de dados e demais ajustes 10'](https://drive.google.com/file/d/1Vpb_SPx9d0L-bn7_vixBRGpcgnQPkX3F/view?usp=drive_link)
-- [2. Implementando a paginção e filtro de dados 12'](https://drive.google.com/file/d/1VSL7OwoGnjPwy9TA44m5HA6WNx6GrhGk/view?usp=drive_link)
-- [3. Implementando a paginção para Lanches 10'](https://drive.google.com/file/d/1Vilwo9dKonRBiEzJ_1vp4r5yM2MGLNIp/view?usp=drive_link)
-- [4. Roteiro e implementação dos detalhes do pedido na Área Admin 10'](https://drive.google.com/file/d/1VHSQnmDHfTfSdCW32XiUq5ODMx_reZGV/view?usp=drive_link)
-- [5. Implementação dos detalhes do pedido - Explicação detalhada 14'](https://drive.google.com/file/d/1VfOiivW-TXiQ7fDp3-JT0kpznLTgi27-/view?usp=drive_link)
-- [6. Criando o relatório de pedidos por período 13'](https://drive.google.com/file/d/1VGO2RWN0jNGZdzd6yytbpTzuFsn3og7u/view?usp=drive_link)
-
-_9. NET 6 - Gerenciamento de Imagens_  49'
-
-- [1. Gerenciamento de Imagens - Conceitos, abordagem e roteiro de configuração 11'](https://drive.google.com/file/d/1NGeT6g4V5S5DW622Y5tnaopxwFtmN5Ec/view?usp=drive_link)
-- [2. Implementação - Configuração e criação dos arquivos da infraestrutura 6'](https://drive.google.com/file/d/1MyjAtxrveD9u-zzJt9CIRDw9cPShmDAj/view?usp=drive_link)
-- [3. Implementação - Exibindo as opções para Upload e Consulta de imagens 12'](https://drive.google.com/file/d/1N6fCYqWnM17eo_EdaYcyKB8ZkTxLtGb0/view?usp=drive_link)
-- [4. Implementação - Enviando arquivos 11'](https://drive.google.com/file/d/1N4vmGM9hg_0nG9UZZafvCOdgTm8yRONw/view?usp=drive_link)
-- [5. Implementação - Exibindo e Deletando imagens 9'](https://drive.google.com/file/d/1N4rKsjGGbmMf5Jp88rqkFDGGeOiBdAqw/view?usp=drive_link)
-
-**EXTRAS:**
-
-**Tarefas:**  
-Enviar  
-**Quem enviou:**
-
-
------
-
-### Semana 6 - 18/09 - 24/09
-
-> Objetivo:
-
-
-**Assistir:** 123'
-
-_10. NET 6 - Gerando gráficos com o GoogleChart_ 53'
-
-- [1. Gerando gráficos usando a biblioteca GoogleChart - Criando o modelo de dominio 5'](https://drive.google.com/file/d/1WCB3wc2EBF2d_MihUKk-UvPSr6RzetQE/view?usp=drive_link)
-- [2. Criando o serviço para gerar os dados para os gráficos 10'](https://drive.google.com/file/d/1W5-m-uUMDxQ_vsQoNzKLVwUIauecFnAu/view?usp=drive_link)
-- [3. Criando o controlador e os métodos Actions		4'](https://drive.google.com/file/d/1Wx02dBwG-rJq0lQxpFtVsV9ozsOBkoHu/view?usp=drive_link)
-- [4. Criando o menu com as opções dos gráficos 		4'](https://drive.google.com/file/d/1VyiuP2wJZrfc7LsnhCn5kvKB0fyaH8bs/view?usp=drive_link)
-- [5. Criando a view Index para gerar o gráfico de barras 8'](https://drive.google.com/file/d/1WCNsG4FoJWnT8QbIdRzaCvv-sJbwsO81/view?usp=drive_link)
-- [6. Criando a view VendasMensal par gerar o gráfico de coluna 9'](https://drive.google.com/file/d/1W5iLfkJc5iRAKnpWbGZk7zhHJI1ooiWV/view?usp=drive_link)
-- [7. Criando a View VendasSemanal para gerar o gráfico de linha 8'](https://drive.google.com/file/d/1W-WE0q57DQkBunL3JUP3WG5ukMmNayYR/view?usp=drive_link)
-- [8. Criando um rodapé e inserindo uma imagem ao título do site 5'](https://drive.google.com/file/d/1W8lp43lLD2WjB95RLzVjHfIGPJls6cTy/view?usp=drive_link)
-
-_11. NET 6 - Migrando o código da classe Startup para a classe Program_ 17'
-- [1. Registrando os serviços e configurando os middlewares na classe Program 6'](https://drive.google.com/file/d/1O8OPzoZfBPS3luPksL1CKgqM3uZ1d-QD/view?usp=drive_link)
-- [2. Implementando a configuração na classe Program e removendo a classe Startup 9'](https://drive.google.com/file/d/1NjYwh7cbk2p_RmQDt1Z9n5lthE6vjP4m/view?usp=drive_link)
-
-_12. NET 6  - Deploy do projeto no IIS_ 13'
-- [1. Fazendo o Deploy no IIS remoto (Host Azul) 13'](https://drive.google.com/file/d/1_eXS-Y2MgYSR_smmrRTcva7FQWP2pnc1/view?usp=drive_link)
-
-_13. NET 6  - Gerando Relatórios e PDF usando o FastReport OpenSource_ 40'
-- [1. Configurando o projeto para usar o FastReport 7'](https://drive.google.com/file/d/1S4imSJxQ-e3Uvaz6M7z_Qt2P6rBSphrz/view?usp=drive_link)
-- [2. Criando o leiaute do relatório usando o Designer 9'](https://drive.google.com/file/d/1SAK7dIJj7aF7zDni4mYL0ZGfSZbAVfrr/view?usp=drive_link)
-- [3. Criando os serviços para obter os dados 6'](https://drive.google.com/file/d/1SLxsPxzuGSTiE0e1xlXOgpKI6HmLdFVv/view?usp=drive_link)
-- [4. Criando o Controller e a View para gerar o relatório 11'](https://drive.google.com/file/d/1SCvz1TKaGNMCH3mJUngj2CKsNtvn7_nh/view?usp=drive_link)
-- [5. Gerando o relatório no formato PDF 7'](https://drive.google.com/file/d/1S3JfSiECEC0fHWF3WpK3QwwgehTfgUhe/view?usp=drive_link)
-
-**EXTRAS:**
-
-**Tarefas:**  
-Enviar  
-**Quem enviou:**
