@@ -83,7 +83,17 @@ Enviar print da Solution contendo todas as novas classes
 
 ### Semana 5 - 11/09 - 17/09
 
-> Objetivo:
+> Objetivo: REVISÃO GERAL ou colocar em Dia a matéria.
+
+  
+**Tarefas:**  
+Enviar um print e url, de um repositório no github com o conteúdo até aqui.
+
+**Quem enviou:**
+
+-----
+
+### Semana 6 - 18/09 - 24/09
 
 **Assistir:** 148'  
 _5\. NET 6 - Pedidos Ajustando o Modelo - Migrations_ 63'
@@ -118,7 +128,7 @@ Enviar
 
 -----
 
-### Semana 6 - 18/09 - 24/09
+### Semana 7 - 25/09 - 01/10
 
 > Objetivo:
 
@@ -163,7 +173,7 @@ Enviar
 
 -----
 
-### Semana 6 - 18/09 - 24/09
+### Semana 8 - 02/10 - 08/10
 
 > Objetivo:
 
@@ -203,6 +213,8 @@ Enviar
 
 
 -----------------
+
+
 # Semanas já concluídas
 
 
