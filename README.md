@@ -45,6 +45,7 @@ Abaixo o conteúdo separado por semanas, verifique a data
 > Objetivo: e ViewModel
 
 **Assistir:** 181'
+Antes de assistir, veja as [observações da semana 4 aqui] (https://github.com/dorathoto/Gauss_MVC/wiki/Semana-4)
 
 - [6\. Apresentando o conceito de ViewModel 5'](https://drive.google.com/file/d/1ba8W50xGeJ5oUnQ63l_xfBnb2HTDMCxA/view?usp=drive_link)
 - [7\. Implementando a view model LancheListViewModel 6'](https://drive.google.com/file/d/1b_-AfEtN5LbIXR9QaDNx8GjohiifVGpH/view?usp=drive_link)
