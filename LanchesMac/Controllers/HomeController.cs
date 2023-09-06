@@ -1,6 +1,5 @@
 ﻿using LanchesMac.Context;
 using LanchesMac.Models;
-using LanchesMac.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -32,7 +31,7 @@ namespace LanchesMac.Controllers
         public async Task<IActionResult> FakeSeed()
         {
             var rnd = new Random();
-            
+
             List<Categoria> list = new List<Categoria>();
 
             for (int i = 0; i < 4; i++)
@@ -55,12 +54,12 @@ namespace LanchesMac.Controllers
                     DescricaoDetalhada = "Descrição det",
                     ImagemThumbnailUrl = "https://via.placeholder.com/150",
                     ImagemUrl = "http://www.macoratti.net/Imagens/lanches/cheesesalada1.jpg",
-                    Categoria = list[rnd.Next(0,4)], //fiz um aleario para chamar o indice da lista
+                    Categoria = list[rnd.Next(0, 4)], //fiz um aleario para chamar o indice da lista
                 };
-                _context.Lanches.Add(lanche);   
+                _context.Lanches.Add(lanche);
             }
             await _context.SaveChangesAsync();
-            
+
             return Content("Seed tosca realizada com sucesso");
         }
 

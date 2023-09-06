@@ -14,8 +14,6 @@ namespace LanchesMac.Context
         //padrão é singular model e plural tabela
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Lanche> Lanches { get; set; }
-
-
         public DbSet<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
 
     }
