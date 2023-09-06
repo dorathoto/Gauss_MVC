@@ -42,7 +42,7 @@ Abaixo o conteúdo separado por semanas, verifique a data
 
 ### Semana 4 - 4/09 - 10/09
 
-> Objetivo: e ViewModel
+> Objetivo: Entender Session, ViewModel, Lógica do carrinho de compras
 
 **Assistir:** 181'
 Antes de assistir, veja as [observações da semana 4 aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-4)
