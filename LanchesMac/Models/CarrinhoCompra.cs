@@ -3,6 +3,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LanchesMac.Models
 {
+
+    /// <summary>
+    /// Eu não colocaria essa classe aqui na Models, normalmente utilizo a pasta models apenas para Models tipo anemicas, sem lógica de negócio.
+    /// Aqui está mais para um serviço/repositório que uma simples Model, porém o C# permite fazer muitas coisas então vamos seguir o vídeo.
+    /// </summary>
     public class CarrinhoCompra
     {
         private readonly AppDbContext _context;
@@ -55,13 +60,13 @@ namespace LanchesMac.Models
 
             if (carrinhoCompraItem == null)
             {
-                carrinhoCompraItem = new CarrinhoCompraItem
+                //já faço o Add com o new CarrinhoCompraItem
+                _context.CarrinhoCompraItens.Add(new CarrinhoCompraItem
                 {
                     CarrinhoCompraId = CarrinhoCompraId,
                     Lanche = lanche,
                     Quantidade = 1
-                };
-                _context.CarrinhoCompraItens.Add(carrinhoCompraItem);
+                });
             }
             else
             {
@@ -102,8 +107,9 @@ namespace LanchesMac.Models
         public List<CarrinhoCompraItem> GetCarrinhoCompraItens()
         {
             return CarrinhoCompraItems ?? _context.CarrinhoCompraItens
-                                            .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
-                                            .Include(s => s.Lanche)
+                                            .Where(w => w.CarrinhoCompraId == CarrinhoCompraId)
+                                            .Include(i => i.Lanche)
+                                            .OrderBy(o => o.CarrinhoCompraId)//apenas para mostrar como ordenar
                                             .ToList();
         }
 
@@ -116,11 +122,12 @@ namespace LanchesMac.Models
             _context.SaveChanges();
         }
 
+        //refatorei para colocar direto no return
         public decimal GetCarrinhoCompraTotal()
         {
-            var total = _context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+            return _context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
                 .Select(c => c.Lanche.Preco * c.Quantidade).Sum();
-            return total;
+            
         }
     }
 }
