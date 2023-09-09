@@ -78,7 +78,7 @@ Antes de assistir, veja as [observações da semana 4 aqui](https://github.com/d
 
 **Tarefas:**  
 Enviar print da Solution contendo todas as novas classes  
-**Quem enviou:** Thiago 
+**Quem enviou:** Thiago, Elora
 
 ---
 
