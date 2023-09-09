@@ -78,7 +78,7 @@ Antes de assistir, veja as [observações da semana 4 aqui](https://github.com/d
 
 **Tarefas:**  
 Enviar print da Solution contendo todas as novas classes  
-**Quem enviou:**
+**Quem enviou:** Thiago 
 
 ---
 
@@ -316,6 +316,6 @@ _4\. NET 6 - Controllers e Views_ 35'
 **Tarefas:**  
 Enviar print do startup contendo o Serviço criado pelo vídeo do Macoratti
 
-**Quem enviou:** Thiago, Kazuo, Elora, Lucas, Denise, Renam 
+**Quem enviou:** Thiago, Kazuo, Elora, Lucas, Denise, Renam, Pedro 
 
 ---
