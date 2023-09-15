@@ -3,11 +3,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LanchesMac.Models
 {
-
-    /// <summary>
-    /// Eu não colocaria essa classe aqui na Models, normalmente utilizo a pasta models apenas para Models tipo anemicas, sem lógica de negócio.
-    /// Aqui está mais para um serviço/repositório que uma simples Model, porém o C# permite fazer muitas coisas então vamos seguir o vídeo.
-    /// </summary>
     public class CarrinhoCompra
     {
         private readonly AppDbContext _context;
@@ -21,15 +16,15 @@ namespace LanchesMac.Models
         public List<CarrinhoCompraItem> CarrinhoCompraItems { get; set; }
         public static CarrinhoCompra GetCarrinho(IServiceProvider services)
         {
-            //define uma sessão, má prática, mas é o que temos para hoje
+            //define uma sessão
             ISession session =
                 services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
 
-            //como estou em uma classe preciso de alguma maneira de injetar os serviços
+            //obtem um serviço do tipo do nosso contexto 
             var context = services.GetService<AppDbContext>();
 
             //obtem ou gera o Id do carrinho
-            string carrinhoId = session.GetString("CarrinhoId") ?? Guid.NewGuid().ToString();  // se for null, ganha novo guid
+            string carrinhoId = session.GetString("CarrinhoId") ?? Guid.NewGuid().ToString();
 
             //atribui o id do carrinho na Sessão
             session.SetString("CarrinhoId", carrinhoId);
@@ -41,32 +36,21 @@ namespace LanchesMac.Models
             };
         }
 
-        /// <summary>
-        /// Não vou modificar, mas recomendaria ser Async
-        /// </summary>
-        /// <param name="lanche"></param>
         public void AdicionarAoCarrinho(Lanche lanche)
         {
-            //SingleOrDefault - retorna apenas 1 se tiver mais de 1 retorna erro
-            //FirstOrDefault = retorna o primeiro se tiver mais de 1 retorna o primeiro, por isso é mais seguro
             var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(
                      s => s.Lanche.LancheId == lanche.LancheId &&
                      s.CarrinhoCompraId == CarrinhoCompraId);
 
-            //se fosse assync eu teria que fazer isso
-            //var carrinhoCompraItem = await _context.CarrinhoCompraItens.FirstOrDefaultAsync(
-            //         s => s.Lanche.LancheId == lanche.LancheId &&
-            //         s.CarrinhoCompraId == CarrinhoCompraId);
-
             if (carrinhoCompraItem == null)
             {
-                //já faço o Add com o new CarrinhoCompraItem
-                _context.CarrinhoCompraItens.Add(new CarrinhoCompraItem
+                carrinhoCompraItem = new CarrinhoCompraItem
                 {
                     CarrinhoCompraId = CarrinhoCompraId,
                     Lanche = lanche,
                     Quantidade = 1
-                });
+                };
+                _context.CarrinhoCompraItens.Add(carrinhoCompraItem);
             }
             else
             {
@@ -77,7 +61,6 @@ namespace LanchesMac.Models
 
         public int RemoverDoCarrinho(Lanche lanche)
         {
-            //mesma coisa, faria async e firstOrDefault
             var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(
                    s => s.Lanche.LancheId == lanche.LancheId &&
                    s.CarrinhoCompraId == CarrinhoCompraId);
@@ -100,17 +83,13 @@ namespace LanchesMac.Models
             return quantidadeLocal;
         }
 
-        /// <summary>
-        /// pequena refatorada ao código original (removi parentes desnecessários)
-        /// </summary>
-        /// <returns></returns>
         public List<CarrinhoCompraItem> GetCarrinhoCompraItens()
         {
-            return CarrinhoCompraItems ?? _context.CarrinhoCompraItens
-                                            .Where(w => w.CarrinhoCompraId == CarrinhoCompraId)
-                                            .Include(i => i.Lanche)
-                                            .OrderBy(o => o.CarrinhoCompraId)//apenas para mostrar como ordenar
-                                            .ToList();
+            return CarrinhoCompraItems ??
+                   (CarrinhoCompraItems =
+                       _context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+                           .Include(s => s.Lanche)
+                           .ToList());
         }
 
         public void LimparCarrinho()
@@ -122,12 +101,11 @@ namespace LanchesMac.Models
             _context.SaveChanges();
         }
 
-        //refatorei para colocar direto no return
         public decimal GetCarrinhoCompraTotal()
         {
-            return _context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+            var total = _context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
                 .Select(c => c.Lanche.Preco * c.Quantidade).Sum();
-            
+            return total;
         }
     }
 }
