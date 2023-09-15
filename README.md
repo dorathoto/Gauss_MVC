@@ -75,7 +75,10 @@ Antes de assistir, veja as [observações da semana 4 aqui](https://github.com/d
 - [31\. Incluindo um link e um button na exibição dos lanches 10'](https://drive.google.com/file/d/1bJkABFyCawYNKvmeSinrnOxiEGqPNoDe/view?usp=drive_link)
 
 **EXTRAS:**
+- [TagHelper](https://learn.microsoft.com/pt-br/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-7.0)
+- [View Component](https://learn.microsoft.com/pt-br/aspnet/core/mvc/views/view-components?view=aspnetcore-7.0)
 
+  
 **Tarefas:**  
 Enviar print da Solution contendo todas as novas classes  
 **Quem enviou:** Thiago, Elora
