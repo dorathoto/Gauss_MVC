@@ -40,49 +40,6 @@ Abaixo o conteúdo separado por semanas, verifique a data
 ---
 
 
-### Semana 4 - 4/09 - 10/09
-
-> Objetivo: Entender Session, ViewModel, Lógica do carrinho de compras
-
-**Assistir:** 181'
-Antes de assistir, veja as [observações da semana 4 aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-4)
-
-- [6\. Apresentando o conceito de ViewModel 5'](https://drive.google.com/file/d/1ba8W50xGeJ5oUnQ63l_xfBnb2HTDMCxA/view?usp=drive_link)
-- [7\. Implementando a view model LancheListViewModel 6'](https://drive.google.com/file/d/1b_-AfEtN5LbIXR9QaDNx8GjohiifVGpH/view?usp=drive_link)
-- [8\. Apresentando Partial Views 7'](https://drive.google.com/file/d/1aKo84wh95nY3gQR_fe3YdT7xipvP_r64/view?usp=drive_link)
-- [9\. Criando a partial view \_LanchesResumo 5'](https://drive.google.com/file/d/1cqOoPRaauYAQyDxXFfAorQhE3l5ShTeq/view?usp=drive_link)
-- [10\. Criando os itens do Carrinho de Compras Conceitos 5'](https://drive.google.com/file/d/1Rub_BUSD9HikPXMLG8apgjGSYWibNMlT/view?usp=drive_link)
-- [11\. Implementando os itens do carrinho de compras 6'](https://drive.google.com/file/d/1bxtUgBgvOravleNiu_nRev9KytCt6kXX/view?usp=drive_link)
-- [12\. Apresentando o conceito de Session 5'](https://drive.google.com/file/d/1bS6gIulptCLY4_pp8XGDCks5vIYrVmYD/view?usp=drive_link)
-- [13\. Configurando Session e HttpContext 4'](https://drive.google.com/file/d/1bxq4rTx6XmyPEXYb1TO-jtS5fME3YpXM/view?usp=drive_link)
-- [14\. Criando o Carrinho de Compras 9'](https://drive.google.com/file/d/1S1EzD-_7Gvr3-SdFoeqsZAe0X1B356xW/view?usp=drive_link)
-- [15\. Adicionar Itens ao Carrinho de Compras 4'](https://drive.google.com/file/d/1bN5fnRozq4Ip-XeCJ9LtalkzLBtlapPc/view?usp=drive_link)
-- [16\. Remover itens do Carrinho de Compras 3'](https://drive.google.com/file/d/1bEoriwIkDWf5H8ISScSOE0Q_X_8ybfOB/view?usp=drive_link)
-- [17\. Concluindo o Carrinho de Compras 5'](https://drive.google.com/file/d/1ay_3TsLQj1_ybZW9B4Hn4H3GDEWvQ36T/view?usp=drive_link)
-- [18\. Criando o Controlador para gerenciar os itens do carrinho de compras 10'](https://drive.google.com/file/d/1beUnXmaGWpDweN1aAE7mzdFRXEehDkl9/view?usp=drive_link)
-- [19\. Criando o Controlador para gerenciar os itens do carrinho de compras - II 7'](https://drive.google.com/file/d/1b9eDe5r0N4fgQrMve9QwAp_efkt3UFqI/view?usp=drive_link)
-- [20\. Criando a View para exibir os itens do carrinho de compras 10'](https://drive.google.com/file/d/1d8wOL-cz8r72eUnNNgYw774tsofoXlB4/view?usp=drive_link)
-- [21\. Exibindo os lanches preferidos 7'](https://drive.google.com/file/d/1amrMiM8HNyIqh9WT93-H6P0msqx8XIPA/view?usp=drive_link)
-- [22\. Apresentando o conceito de ViewComponent 4'](https://drive.google.com/file/d/1d-cBElPx39HFp7MM7PpVGjL22jgoOhlM/view?usp=drive_link)
-- [23\. Criando uma ViewComponent para exibir detalhes do carrinho 12'](https://drive.google.com/file/d/1bE9NBiu9CjiLiH_g15n99VV1aLB8-EGy/view?usp=drive_link)
-- [24\. Apresentando o conceito de TagHelpers 5'](https://drive.google.com/file/d/1aUQPE7d9r9YAOukGgACHFxKH6l36Sz61/view?usp=drive_link)
-- [25\. Criando uma TagHelper 9'](https://drive.google.com/file/d/1alJPxR7-kPk7TmZwA6TCm1wXMOVSscoF/view?usp=drive_link)
-- [26\. Ajustando o LancheController para exibir lanches por categoria 8'](https://drive.google.com/file/d/1bYGMKVH8CsMjPSyybuvHm73pMFuZ8tx9/view?usp=drive_link)
-- [27\. Apresentando os conceitos sobre Roteamento 8'](https://drive.google.com/file/d/1cQkx8YJwpexI1b3tPJ5c2Y4BL3-xncBz/view?usp=drive_link)
-- [28\. Múltiplas Rotas - Criando a rota para exibir lanches por categoria 11'](https://drive.google.com/file/d/1bDEhYyj3Jc99byAqcPoIkHZi5q-RUyWh/view?usp=drive_link)
-- [29\. Criar View Componente para exibir as categorias no menu Lanches 10'](https://drive.google.com/file/d/1adVpWkOeRk2WGiCn6e1kiS-myN6f-rVW/view?usp=drive_link)
-- [30\. Otimizando o método Action List de LancheController 6'](https://drive.google.com/file/d/1bhyBYrYqHht4nJoI7DTX8Q1RTWIDKOEC/view?usp=drive_link)
-- [31\. Incluindo um link e um button na exibição dos lanches 10'](https://drive.google.com/file/d/1bJkABFyCawYNKvmeSinrnOxiEGqPNoDe/view?usp=drive_link)
-
-**EXTRAS:**
-- [TagHelper](https://learn.microsoft.com/pt-br/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-7.0)
-- [View Component](https://learn.microsoft.com/pt-br/aspnet/core/mvc/views/view-components?view=aspnetcore-7.0)
-
-  
-**Tarefas:**  
-Enviar print da Solution contendo todas as novas classes  
-**Quem enviou:** Thiago, Elora, Nilton
-
 ---
 
 ### Semana 5 - 11/09 - 17/09
@@ -322,3 +279,48 @@ Enviar print do startup contendo o Serviço criado pelo vídeo do Macoratti
 **Quem enviou:** Thiago, Kazuo, Elora, Lucas, Denise, Renam, Pedro 
 
 ---
+
+
+
+### Semana 4 - 4/09 - 10/09
+
+> Objetivo: Entender Session, ViewModel, Lógica do carrinho de compras
+
+**Assistir:** 181'
+Antes de assistir, veja as [observações da semana 4 aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-4)
+
+- [6\. Apresentando o conceito de ViewModel 5'](https://drive.google.com/file/d/1ba8W50xGeJ5oUnQ63l_xfBnb2HTDMCxA/view?usp=drive_link)
+- [7\. Implementando a view model LancheListViewModel 6'](https://drive.google.com/file/d/1b_-AfEtN5LbIXR9QaDNx8GjohiifVGpH/view?usp=drive_link)
+- [8\. Apresentando Partial Views 7'](https://drive.google.com/file/d/1aKo84wh95nY3gQR_fe3YdT7xipvP_r64/view?usp=drive_link)
+- [9\. Criando a partial view \_LanchesResumo 5'](https://drive.google.com/file/d/1cqOoPRaauYAQyDxXFfAorQhE3l5ShTeq/view?usp=drive_link)
+- [10\. Criando os itens do Carrinho de Compras Conceitos 5'](https://drive.google.com/file/d/1Rub_BUSD9HikPXMLG8apgjGSYWibNMlT/view?usp=drive_link)
+- [11\. Implementando os itens do carrinho de compras 6'](https://drive.google.com/file/d/1bxtUgBgvOravleNiu_nRev9KytCt6kXX/view?usp=drive_link)
+- [12\. Apresentando o conceito de Session 5'](https://drive.google.com/file/d/1bS6gIulptCLY4_pp8XGDCks5vIYrVmYD/view?usp=drive_link)
+- [13\. Configurando Session e HttpContext 4'](https://drive.google.com/file/d/1bxq4rTx6XmyPEXYb1TO-jtS5fME3YpXM/view?usp=drive_link)
+- [14\. Criando o Carrinho de Compras 9'](https://drive.google.com/file/d/1S1EzD-_7Gvr3-SdFoeqsZAe0X1B356xW/view?usp=drive_link)
+- [15\. Adicionar Itens ao Carrinho de Compras 4'](https://drive.google.com/file/d/1bN5fnRozq4Ip-XeCJ9LtalkzLBtlapPc/view?usp=drive_link)
+- [16\. Remover itens do Carrinho de Compras 3'](https://drive.google.com/file/d/1bEoriwIkDWf5H8ISScSOE0Q_X_8ybfOB/view?usp=drive_link)
+- [17\. Concluindo o Carrinho de Compras 5'](https://drive.google.com/file/d/1ay_3TsLQj1_ybZW9B4Hn4H3GDEWvQ36T/view?usp=drive_link)
+- [18\. Criando o Controlador para gerenciar os itens do carrinho de compras 10'](https://drive.google.com/file/d/1beUnXmaGWpDweN1aAE7mzdFRXEehDkl9/view?usp=drive_link)
+- [19\. Criando o Controlador para gerenciar os itens do carrinho de compras - II 7'](https://drive.google.com/file/d/1b9eDe5r0N4fgQrMve9QwAp_efkt3UFqI/view?usp=drive_link)
+- [20\. Criando a View para exibir os itens do carrinho de compras 10'](https://drive.google.com/file/d/1d8wOL-cz8r72eUnNNgYw774tsofoXlB4/view?usp=drive_link)
+- [21\. Exibindo os lanches preferidos 7'](https://drive.google.com/file/d/1amrMiM8HNyIqh9WT93-H6P0msqx8XIPA/view?usp=drive_link)
+- [22\. Apresentando o conceito de ViewComponent 4'](https://drive.google.com/file/d/1d-cBElPx39HFp7MM7PpVGjL22jgoOhlM/view?usp=drive_link)
+- [23\. Criando uma ViewComponent para exibir detalhes do carrinho 12'](https://drive.google.com/file/d/1bE9NBiu9CjiLiH_g15n99VV1aLB8-EGy/view?usp=drive_link)
+- [24\. Apresentando o conceito de TagHelpers 5'](https://drive.google.com/file/d/1aUQPE7d9r9YAOukGgACHFxKH6l36Sz61/view?usp=drive_link)
+- [25\. Criando uma TagHelper 9'](https://drive.google.com/file/d/1alJPxR7-kPk7TmZwA6TCm1wXMOVSscoF/view?usp=drive_link)
+- [26\. Ajustando o LancheController para exibir lanches por categoria 8'](https://drive.google.com/file/d/1bYGMKVH8CsMjPSyybuvHm73pMFuZ8tx9/view?usp=drive_link)
+- [27\. Apresentando os conceitos sobre Roteamento 8'](https://drive.google.com/file/d/1cQkx8YJwpexI1b3tPJ5c2Y4BL3-xncBz/view?usp=drive_link)
+- [28\. Múltiplas Rotas - Criando a rota para exibir lanches por categoria 11'](https://drive.google.com/file/d/1bDEhYyj3Jc99byAqcPoIkHZi5q-RUyWh/view?usp=drive_link)
+- [29\. Criar View Componente para exibir as categorias no menu Lanches 10'](https://drive.google.com/file/d/1adVpWkOeRk2WGiCn6e1kiS-myN6f-rVW/view?usp=drive_link)
+- [30\. Otimizando o método Action List de LancheController 6'](https://drive.google.com/file/d/1bhyBYrYqHht4nJoI7DTX8Q1RTWIDKOEC/view?usp=drive_link)
+- [31\. Incluindo um link e um button na exibição dos lanches 10'](https://drive.google.com/file/d/1bJkABFyCawYNKvmeSinrnOxiEGqPNoDe/view?usp=drive_link)
+
+**EXTRAS:**
+- [TagHelper](https://learn.microsoft.com/pt-br/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-7.0)
+- [View Component](https://learn.microsoft.com/pt-br/aspnet/core/mvc/views/view-components?view=aspnetcore-7.0)
+
+  
+**Tarefas:**  
+Enviar print da Solution contendo todas as novas classes  
+**Quem enviou:** Thiago, Elora, Nilton
