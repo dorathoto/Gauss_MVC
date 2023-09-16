@@ -5,15 +5,18 @@
     <h3>Preço : @Model.Preco.ToString("c")</h3>
 
     <h4>
-    <a asp-controller="Lanche" asp-action="Details" 
-    asp-route-lancheId="@Model.LancheId">@Model.Nome</a>
+    <a asp-controller="Lanche" 
+        asp-action="Details" 
+        asp-route-lancheId="@Model.LancheId">@Model.Nome</a>
     </h4>
 
     <p>@Model.DescricaoCurta</p>
       <div>
         <p class="button">
-            <a class="btn btn-primary" id="cartButton" asp-controller="CarrinhoCompra" 
-            asp-action="AdicionarItemNoCarrinhoCompra" asp-route-LancheId="@Model.LancheId">
+            <a class="btn btn-primary" id="cartButton" 
+                asp-controller="CarrinhoCompra" 
+                asp-action="AdicionarItemNoCarrinhoCompra"
+                asp-route-LancheId="@Model.LancheId">
             Incluir no Carrinho
         </a>
         </p>
