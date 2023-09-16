@@ -1,21 +1,26 @@
 ﻿using LanchesMac.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LanchesMac.Components
+
+//normalmente a pasta se chama ViewComponents
+namespace LanchesMac.Components;
+
+/// <summary>
+/// Recomenda-se utilizar o sufixo ViewComponent no nome da classe
+/// Neste caso deveria ser CategoriaMenuViewComponent'
+/// </summary>
+public class CategoriaMenu : ViewComponent
 {
-    public class CategoriaMenu : ViewComponent
+    private readonly ICategoriaRepository _categoriaRepository;
+
+    public CategoriaMenu(ICategoriaRepository categoriaRepository)
     {
-        private readonly ICategoriaRepository _categoriaRepository;
+        _categoriaRepository = categoriaRepository;
+    }
 
-        public CategoriaMenu(ICategoriaRepository categoriaRepository)
-        {
-            _categoriaRepository = categoriaRepository;
-        }
-
-        public IViewComponentResult Invoke()
-        {
-            var categorias = _categoriaRepository.Categorias.OrderBy(c => c.CategoriaNome);
-            return View(categorias);
-        }
+    public IViewComponentResult Invoke()
+    {
+        var categorias = _categoriaRepository.Categorias.OrderBy(c => c.CategoriaNome);
+        return View(categorias);
     }
 }
