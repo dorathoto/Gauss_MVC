@@ -39,22 +39,9 @@ Abaixo o conteúdo separado por semanas, verifique a data
 
 ---
 
-
----
-
-### Semana 5 - 11/09 - 17/09
-
-> Objetivo: REVISÃO GERAL ou colocar em Dia a matéria.
-
-  
-**Tarefas:**  
-Enviar um print e url, de um repositório no github com o conteúdo até aqui.
-
-**Quem enviou:**
-
------
-
 ### Semana 6 - 18/09 - 24/09
+
+> Objetivo: Checkout do carrinho e início de Identity
 
 **Assistir:** 148'  
 _5\. NET 6 - Pedidos Ajustando o Modelo - Migrations_ 63'
@@ -83,7 +70,8 @@ _6\. NET 6 - Identity Autenticação e Autorização_ 85'
 **EXTRAS:**
   
 **Tarefas:**  
-Enviar  
+Enviar print do checkout (tela final) e Login do sistema
+
 **Quem enviou:**
 
 
@@ -91,10 +79,10 @@ Enviar
 
 ### Semana 7 - 25/09 - 01/10
 
-> Objetivo:
+> Objetivo: Area, Filtros
 
 
-**Assistir:** 183'
+**Assistir:** 134'
 
 
 _7. NET 6 - Àrea de Administração_ 65'
@@ -114,8 +102,27 @@ _8. NET 6 - Novas Funcionalidades - Paginação, Filtro de dados, Detalhes do Pe
 - [2. Implementando a paginção e filtro de dados 12'](https://drive.google.com/file/d/1VSL7OwoGnjPwy9TA44m5HA6WNx6GrhGk/view?usp=drive_link)
 - [3. Implementando a paginção para Lanches 10'](https://drive.google.com/file/d/1Vilwo9dKonRBiEzJ_1vp4r5yM2MGLNIp/view?usp=drive_link)
 - [4. Roteiro e implementação dos detalhes do pedido na Área Admin 10'](https://drive.google.com/file/d/1VHSQnmDHfTfSdCW32XiUq5ODMx_reZGV/view?usp=drive_link)
-- [5. Implementação dos detalhes do pedido - Explicação detalhada 14'](https://drive.google.com/file/d/1VfOiivW-TXiQ7fDp3-JT0kpznLTgi27-/view?usp=drive_link)
+- [5. Implementação dos detalhes do pedido - Explicação detalhada 14'](https://drive.google.com/file/d/1VfOiivW-TXiQ7fDp3-JT0kpznLTgi27-/view?usp=drive_link)49
 - [6. Criando o relatório de pedidos por período 13'](https://drive.google.com/file/d/1VGO2RWN0jNGZdzd6yytbpTzuFsn3og7u/view?usp=drive_link)
+
+
+
+**EXTRAS:**
+
+**Tarefas:**  
+Enviar  print do solution contendo os arquivos do área
+
+**Quem enviou:**
+
+
+-----
+
+### Semana 8 - 02/10 - 08/10
+
+> Objetivo: Upload de arquivo, Charts
+
+
+**Assistir:** 123'
 
 _9. NET 6 - Gerenciamento de Imagens_  49'
 
@@ -124,22 +131,6 @@ _9. NET 6 - Gerenciamento de Imagens_  49'
 - [3. Implementação - Exibindo as opções para Upload e Consulta de imagens 12'](https://drive.google.com/file/d/1N6fCYqWnM17eo_EdaYcyKB8ZkTxLtGb0/view?usp=drive_link)
 - [4. Implementação - Enviando arquivos 11'](https://drive.google.com/file/d/1N4vmGM9hg_0nG9UZZafvCOdgTm8yRONw/view?usp=drive_link)
 - [5. Implementação - Exibindo e Deletando imagens 9'](https://drive.google.com/file/d/1N4rKsjGGbmMf5Jp88rqkFDGGeOiBdAqw/view?usp=drive_link)
-
-**EXTRAS:**
-
-**Tarefas:**  
-Enviar  
-**Quem enviou:**
-
-
------
-
-### Semana 8 - 02/10 - 08/10
-
-> Objetivo:
-
-
-**Assistir:** 123'
 
 _10. NET 6 - Gerando gráficos com o GoogleChart_ 53'
 
@@ -151,6 +142,24 @@ _10. NET 6 - Gerando gráficos com o GoogleChart_ 53'
 - [6. Criando a view VendasMensal par gerar o gráfico de coluna 9'](https://drive.google.com/file/d/1W5iLfkJc5iRAKnpWbGZk7zhHJI1ooiWV/view?usp=drive_link)
 - [7. Criando a View VendasSemanal para gerar o gráfico de linha 8'](https://drive.google.com/file/d/1W-WE0q57DQkBunL3JUP3WG5ukMmNayYR/view?usp=drive_link)
 - [8. Criando um rodapé e inserindo uma imagem ao título do site 5'](https://drive.google.com/file/d/1W8lp43lLD2WjB95RLzVjHfIGPJls6cTy/view?usp=drive_link)
+
+**EXTRAS:**
+
+**Tarefas:**  
+Enviar print do html do chart e C# do upload
+
+**Quem enviou:**
+
+
+-----------------
+
+
+### Semana 9 - 09/10 - 16/10
+
+> Objetivo: Deploy
+
+
+**Assistir:** 70'
 
 _11. NET 6 - Migrando o código da classe Startup para a classe Program_ 17'
 - [1. Registrando os serviços e configurando os middlewares na classe Program 6'](https://drive.google.com/file/d/1O8OPzoZfBPS3luPksL1CKgqM3uZ1d-QD/view?usp=drive_link)
@@ -166,15 +175,11 @@ _13. NET 6  - Gerando Relatórios e PDF usando o FastReport OpenSource_ 40'
 - [4. Criando o Controller e a View para gerar o relatório 11'](https://drive.google.com/file/d/1SCvz1TKaGNMCH3mJUngj2CKsNtvn7_nh/view?usp=drive_link)
 - [5. Gerando o relatório no formato PDF 7'](https://drive.google.com/file/d/1S3JfSiECEC0fHWF3WpK3QwwgehTfgUhe/view?usp=drive_link)
 
-**EXTRAS:**
-
 **Tarefas:**  
-Enviar  
-**Quem enviou:**
+Enviar print do html do chart e C# do upload
 
 
------------------
-
+-----
 
 # Semanas já concluídas
 
@@ -324,3 +329,18 @@ Antes de assistir, veja as [observações da semana 4 aqui](https://github.com/d
 **Tarefas:**  
 Enviar print da Solution contendo todas as novas classes  
 **Quem enviou:** Thiago, Elora, Nilton
+
+
+---
+
+### Semana 5 - 11/09 - 17/09
+
+> Objetivo: REVISÃO GERAL ou colocar em Dia a matéria.
+
+  
+**Tarefas:**  
+Enviar um print e url, de um repositório no github com o conteúdo até aqui.
+
+**Quem enviou:**
+
+-----
