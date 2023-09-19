@@ -21,9 +21,14 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     @await Component.InvokeAsync("CarrinhoCompraResumo")
                     @await Component.InvokeAsync("CategoriaMenu")
-                    @*<a class="nav-link text-light" asp-area="" asp-controller="Lanche" asp-action="List">Lanche</a>*@
+                    @*<a class="nav-link text-light" asp-area="" asp-controller="Lanche" asp-action="List">Lanches</a>*@
                     <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Index">Contato</a>
                     <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    <form class="navbar-form navbar-right" asp-controller="Lanche" asp-action="Search" method="get">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Procurar produto" name="searchString" value="@ViewData["searchString"]">
+                        </div>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -36,7 +41,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - LanchesMac 
+            &copy; 2021 - LanchesMac
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

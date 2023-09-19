@@ -1,4 +1,4 @@
-﻿@model LanchesMac.ViewModels.LancheListViewModel
+﻿@model LancheListViewModel
 
 <div>
     <h2>@Model.CategoriaAtual</h2>
@@ -8,8 +8,7 @@
     <div class="row">
         @foreach (var lanche in Model.Lanches)
         {
-           @*  <partial name="_LanchesResumo" for="@lanche" /> *@
-
+          @* <partial name="_LanchesResumo" for="@lanche"/> *@
             @await Html.PartialAsync("_LanchesResumo", lanche)
         }
     </div>
