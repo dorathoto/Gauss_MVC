@@ -43,6 +43,8 @@ Abaixo o conteúdo separado por semanas, verifique a data
 
 > Objetivo: Checkout do carrinho e início de Identity
 
+Observações da semana 6, [clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-6)
+
 **Assistir:** 148'  
 _5\. NET 6 - Pedidos Ajustando o Modelo - Migrations_ 63'
 
