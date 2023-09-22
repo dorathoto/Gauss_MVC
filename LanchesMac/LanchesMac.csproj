@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <Folder Include="TagHelpers\" />
+    <Folder Include="Views\Pedido\" />
   </ItemGroup>
 
 </Project>
