@@ -37,46 +37,6 @@ Lembrando que o curso baixo é de MVC ou seja, não é específicamente de C#, p
 
 Abaixo o conteúdo separado por semanas, verifique a data
 
----
-
-### Semana 6 - 18/09 - 24/09
-
-> Objetivo: Checkout do carrinho e início de Identity
-
-Observações da semana 6, [clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-6)
-
-**Assistir:** 148'  
-_5\. NET 6 - Pedidos Ajustando o Modelo - Migrations_ 63'
-
-- [1\. Pedidos - Expandindo o modelo de domínio 12'](https://drive.google.com/file/d/1dp14ehblFjmbbYv9qx3fYYavPNpWzz37/view?usp=drive_link)
-- [2\. Criando o repositório para os pedidos 8'](https://drive.google.com/file/d/1dfkxfl6OUqDv7eSHygsXaNanlof3VoC9/view?usp=drive_link)
-- [3\. Localizando lanches por nome - Search 7'](https://drive.google.com/file/d/1d_MpdoxbAeQ2YSUq5PUJxdErjepnjQmH/view?usp=drive_link)
-- [4\. Criando o controlador PedidoController 8'](https://drive.google.com/file/d/1dVjoJQhYqYQLWQm6WaiPO7dD4sqxnH5j/view?usp=drive_link)
-- [5\. Criando a view Checkout 6'](https://drive.google.com/file/d/1db58Cdmf-mU40uKIrVvbjVmFoqRZWk4N/view?usp=drive_link)
-- [6\. Criando o método Action Checkout (HttpPost) 8'](https://drive.google.com/file/d/1dh8Pxeie9NiLsLdzps0ZKS5x5qnp8Yx3/view?usp=drive_link)
-- [7\. Criando a view CheckoutCompleto - Exibindo um resumo do pedido 9'](https://drive.google.com/file/d/1dutkhFPYk72NzfbD8UMfZSFidob8tNlI/view?usp=drive_link)
-- [8\. Criando um layout alternativo para o site de lanches 5'](https://drive.google.com/file/d/1dHkMcupWrwww_dDlgiNDyTVTjfKsjGqz/view?usp=drive_link)
-
-_6\. NET 6 - Identity Autenticação e Autorização_ 85'
-
-- [1\. Autenticação e Autorização 14'](https://drive.google.com/file/d/1QCoJItnbblqXVuAeIROMj8O2a8IfWugA/view?usp=drive_link)
-- [2\. Configurando o Identity no projeto 11'](https://drive.google.com/file/d/1QRcky-pOS-pGjXlmwlOzcWScLyoppaYR/view?usp=drive_link)
-- [3\. Implementando o Login - I 7'](https://drive.google.com/file/d/1QUWVJa0h1DdHnj--CqrFGmf-LIS0-MhX/view?usp=drive_link)
-- [4\. Implementando o Login - II 7'](https://drive.google.com/file/d/1PzSjASBK-bNOqemzMw7Pm01S6YrJLP8k/view?usp=drive_link)
-- [5\. Criando a View Login 8'](https://drive.google.com/file/d/1Q9BFb0lsyPBpHSJWa53ZlrqDw58JE5bh/view?usp=drive_link)
-- [6\. Implementando o Registro - I 7'](https://drive.google.com/file/d/1Q2UJUPDvwqlyPwknnCBz3vvFDR0gJwg-/view?usp=drive_link)
-- [7\. Criando a View Register 10'](https://drive.google.com/file/d/1QdDJmvERtbj1coL074w9BuYfuxvP2JXm/view?usp=drive_link)
-- [8\. Implementando o Logout 10'](https://drive.google.com/file/d/1QV2THLCjpQ6QHzt5mbWdQExubLpmyIo8/view?usp=drive_link)
-- [9\. Implementando a autorização - Authorize 11'](https://drive.google.com/file/d/1QD79UmyvDtI0JXFQSmBAKDX0rqHFqX1T/view?usp=drive_link)
-
-**EXTRAS:**
-  
-**Tarefas:**  
-Enviar print do checkout (tela final) e Login do sistema
-
-**Quem enviou:**
-
-
 -----
 
 ### Semana 7 - 25/09 - 01/10
@@ -118,8 +78,12 @@ Enviar  print do solution contendo os arquivos do área
 
 
 -----
-
 ### Semana 8 - 02/10 - 08/10
+- Concluir Semanas atrasadas, postar dúvidas no grupo e prints das tarefas.
+
+-----
+
+### Semana 9 - 09/10 - 15/10
 
 > Objetivo: Upload de arquivo, Charts
 
@@ -156,7 +120,7 @@ Enviar print do html do chart e C# do upload
 -----------------
 
 
-### Semana 9 - 09/10 - 16/10
+### Semana 10 - 16/10 - 23/10
 
 > Objetivo: Deploy
 
@@ -346,3 +310,42 @@ Enviar um print e url, de um repositório no github com o conteúdo até aqui.
 **Quem enviou:**
 
 -----
+
+
+### Semana 6 - 18/09 - 24/09
+
+> Objetivo: Checkout do carrinho e início de Identity
+
+Observações da semana 6, [clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-6)
+
+**Assistir:** 148'  
+_5\. NET 6 - Pedidos Ajustando o Modelo - Migrations_ 63'
+
+- [1\. Pedidos - Expandindo o modelo de domínio 12'](https://drive.google.com/file/d/1dp14ehblFjmbbYv9qx3fYYavPNpWzz37/view?usp=drive_link)
+- [2\. Criando o repositório para os pedidos 8'](https://drive.google.com/file/d/1dfkxfl6OUqDv7eSHygsXaNanlof3VoC9/view?usp=drive_link)
+- [3\. Localizando lanches por nome - Search 7'](https://drive.google.com/file/d/1d_MpdoxbAeQ2YSUq5PUJxdErjepnjQmH/view?usp=drive_link)
+- [4\. Criando o controlador PedidoController 8'](https://drive.google.com/file/d/1dVjoJQhYqYQLWQm6WaiPO7dD4sqxnH5j/view?usp=drive_link)
+- [5\. Criando a view Checkout 6'](https://drive.google.com/file/d/1db58Cdmf-mU40uKIrVvbjVmFoqRZWk4N/view?usp=drive_link)
+- [6\. Criando o método Action Checkout (HttpPost) 8'](https://drive.google.com/file/d/1dh8Pxeie9NiLsLdzps0ZKS5x5qnp8Yx3/view?usp=drive_link)
+- [7\. Criando a view CheckoutCompleto - Exibindo um resumo do pedido 9'](https://drive.google.com/file/d/1dutkhFPYk72NzfbD8UMfZSFidob8tNlI/view?usp=drive_link)
+- [8\. Criando um layout alternativo para o site de lanches 5'](https://drive.google.com/file/d/1dHkMcupWrwww_dDlgiNDyTVTjfKsjGqz/view?usp=drive_link)
+
+_6\. NET 6 - Identity Autenticação e Autorização_ 85'
+
+- [1\. Autenticação e Autorização 14'](https://drive.google.com/file/d/1QCoJItnbblqXVuAeIROMj8O2a8IfWugA/view?usp=drive_link)
+- [2\. Configurando o Identity no projeto 11'](https://drive.google.com/file/d/1QRcky-pOS-pGjXlmwlOzcWScLyoppaYR/view?usp=drive_link)
+- [3\. Implementando o Login - I 7'](https://drive.google.com/file/d/1QUWVJa0h1DdHnj--CqrFGmf-LIS0-MhX/view?usp=drive_link)
+- [4\. Implementando o Login - II 7'](https://drive.google.com/file/d/1PzSjASBK-bNOqemzMw7Pm01S6YrJLP8k/view?usp=drive_link)
+- [5\. Criando a View Login 8'](https://drive.google.com/file/d/1Q9BFb0lsyPBpHSJWa53ZlrqDw58JE5bh/view?usp=drive_link)
+- [6\. Implementando o Registro - I 7'](https://drive.google.com/file/d/1Q2UJUPDvwqlyPwknnCBz3vvFDR0gJwg-/view?usp=drive_link)
+- [7\. Criando a View Register 10'](https://drive.google.com/file/d/1QdDJmvERtbj1coL074w9BuYfuxvP2JXm/view?usp=drive_link)
+- [8\. Implementando o Logout 10'](https://drive.google.com/file/d/1QV2THLCjpQ6QHzt5mbWdQExubLpmyIo8/view?usp=drive_link)
+- [9\. Implementando a autorização - Authorize 11'](https://drive.google.com/file/d/1QD79UmyvDtI0JXFQSmBAKDX0rqHFqX1T/view?usp=drive_link)
+
+**EXTRAS:**
+  
+**Tarefas:**  
+Enviar print do checkout (tela final) e Login do sistema
+
+**Quem enviou:** Thiago, Nilton
+
