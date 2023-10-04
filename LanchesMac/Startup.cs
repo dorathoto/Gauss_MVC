@@ -71,6 +71,11 @@ public class Startup
 
         app.UseEndpoints(endpoints =>
         {
+            //observação: a ordem faz diferença, então primeiro vai procurar o area, depois filtro e se não der cai na regra geral default
+            endpoints.MapControllerRoute(
+                  name: "areas",
+                  pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
+
             endpoints.MapControllerRoute(
                name: "categoriaFiltro",
                pattern: "Lanche/{action}/{categoria?}",
