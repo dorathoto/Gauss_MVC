@@ -30,9 +30,18 @@ public class Startup
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
         services.AddIdentity<IdentityUser, IdentityRole>()
-            
                  .AddEntityFrameworkStores<AppDbContext>()
                  .AddDefaultTokenProviders();
+        //services.Configure<IdentityOptions>(options =>
+        //{
+        //    // Opcionais
+        //    options.Password.RequireDigit = false;
+        //    options.Password.RequireLowercase = false;
+        //    options.Password.RequireNonAlphanumeric = false;
+        //    options.Password.RequireUppercase = false;
+        //    options.Password.RequiredLength = 3;
+        //    options.Password.RequiredUniqueChars = 1;
+        //});
 
         //SERVIÇOS
         services.AddTransient<ILancheRepository, LancheRepository>();
@@ -48,7 +57,6 @@ public class Startup
                     politica.RequireRole("Admin");
                 });
         });
-
 
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
@@ -93,6 +101,7 @@ public class Startup
 
 
         app.UseSession();
+        app.UseAuthentication();
         app.UseAuthorization();
 
         app.UseEndpoints(endpoints =>
