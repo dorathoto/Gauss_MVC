@@ -46,6 +46,7 @@ Abaixo o conteúdo separado por semanas, verifique a data
 
 **Assistir:** 134'
 
+Observações da semana 7, [clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-7)
 
 _7. NET 6 - Àrea de Administração_ 65'
 
