@@ -2,6 +2,7 @@
 using LanchesMac.Models;
 using LanchesMac.Repositories;
 using LanchesMac.Repositories.Interfaces;
+using LanchesMac.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace LanchesMac;
@@ -23,7 +24,7 @@ public class Program_Original
         builder.Services.AddTransient<ILancheRepository, LancheRepository>();
         builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         builder.Services.AddTransient<IPedidoRepository, PedidoRepository>();
-
+        builder.Services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
 
 
         builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
@@ -55,6 +56,10 @@ public class Program_Original
 
         app.UseEndpoints(endpoints =>
         {
+            endpoints.MapControllerRoute(
+               name: "areas",
+               pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
+
             endpoints.MapControllerRoute(
                name: "categoriaFiltro",
                pattern: "Lanche/{action}/{categoria?}",

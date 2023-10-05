@@ -1,5 +1,7 @@
 ﻿using LanchesMac.Context;
 using LanchesMac.Models;
+using LanchesMac.Repositories.Interfaces;
+using LanchesMac.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -8,21 +10,30 @@ namespace LanchesMac.Controllers;
 public class HomeController : Controller
 {
     private readonly AppDbContext _context;    //não está no projeto
-
+    private readonly ILancheRepository _lancheRepository;
 
     /// <summary>
     /// Tbm não está no projeto, estou injetando o contexto para poder executar uma action e colocar alguns produtos fakes no banco
     /// </summary>
     /// <param name="context"></param>
-    public HomeController(AppDbContext context)
+    public HomeController(ILancheRepository lancheRepository)
     {
-        _context = context;
+        _lancheRepository = lancheRepository;
     }
+
     public IActionResult Index()
     {
         TempData["Nome"] = "Leonardo";
-        return View();
+        var homeViewModel = new HomeViewModel
+        {
+            LanchesPreferidos = _lancheRepository.LanchesPreferidos
+        };
+
+        return View(homeViewModel);
     }
+
+
+
     [Route("Leonardo")]
     public IActionResult Index2()
     {
