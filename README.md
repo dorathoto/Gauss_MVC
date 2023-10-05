@@ -71,6 +71,7 @@ _8. NET 6 - Novas Funcionalidades - Paginação, Filtro de dados, Detalhes do Pe
 
 
 **EXTRAS:**
+
 [Autorização Roles](https://learn.microsoft.com/pt-br/aspnet/core/security/authorization/roles?view=aspnetcore-7.0)
 
 
