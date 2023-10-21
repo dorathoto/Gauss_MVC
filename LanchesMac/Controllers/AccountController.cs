@@ -52,6 +52,57 @@ public class AccountController : Controller
         }
         ModelState.AddModelError("", "Falha ao realizar o login!!");
         return View(loginVM);
-    }//
+    }
+
+
+
+
+
+
+    /// <summary>
+    /// Aula 6
+    /// </summary>
+    /// <returns></returns>
+
+    [AllowAnonymous]
+    public IActionResult Register()
+    {
+        return View();
+    }
+
+    [AllowAnonymous]
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Register(LoginViewModel registroVM)
+    {
+        if (ModelState.IsValid)
+        {
+            var user = new IdentityUser { UserName = registroVM.UserName };
+            var result = await _userManager.CreateAsync(user, registroVM.Password);
+
+            if (result.Succeeded)
+            {
+                //await _signInManager.SignInAsync(user, isPersistent: false);
+                return RedirectToAction("Login", "Account");
+            }
+            else
+            {
+                this.ModelState.AddModelError("Registro", "Falha ao registrar o usuário");
+            }
+        }
+        return View(registroVM);
+    }
+
+
+    // Aula 8 semana 6
+    [HttpPost]
+    public async Task<IActionResult> Logout()
+    {
+        HttpContext.Session.Clear();  //boa prática
+        HttpContext.User = null;      //boa prática
+        await _signInManager.SignOutAsync();    //obrigatório
+        return RedirectToAction("Index", "Home");
+    }
+
 
 }
