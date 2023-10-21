@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
+namespace LanchesMac.Controllers;
 [Authorize]
 public class AccountController : Controller
 {
@@ -51,7 +52,7 @@ public class AccountController : Controller
         ModelState.AddModelError("", "Falha ao realizar o login!!");
         return View(loginVM);
 
-
+    }
 
 
 
@@ -76,9 +77,11 @@ public class AccountController : Controller
             var user = new IdentityUser { UserName = registroVM.UserName };
             var result = await _userManager.CreateAsync(user, registroVM.Password);
 
+            if (result.Succeeded)
             {
+
                 //await _signInManager.SignInAsync(user, isPersistent: false);
-                    await _userManager.AddToRoleAsync(user, "Member");
+                await _userManager.AddToRoleAsync(user, "Member");
                 return RedirectToAction("Login", "Account");
             }
             else
@@ -89,9 +92,18 @@ public class AccountController : Controller
         return View(registroVM);
     }
 
+    [AllowAnonymous]
     [HttpPost]
     public async Task<IActionResult> Logout()
     {
+        HttpContext.Session.Clear();
+        HttpContext.User = null;
+        await _signInManager.SignOutAsync();
+        return RedirectToAction("Index", "Home");
+    }
+    public IActionResult AccessDenied()
+    {
+        return View();
     }
 
 }
