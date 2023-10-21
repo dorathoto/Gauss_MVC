@@ -1,12 +1,13 @@
 ﻿using LanchesMac.Models;
-using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace LanchesMac.Context
 {
 
     // o nome correto para esse projeto seria LanchesMacContext, mas como já foi criado como AppDbContext, vamos manter assim
-    public class AppDbContext : IdentityDbContext(IdentityUser)
+    public class AppDbContext : IdentityDbContext<IdentityUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
