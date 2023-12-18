@@ -3,8 +3,6 @@ using LanchesMac.Models;
 using LanchesMac.Repositories;
 using LanchesMac.Repositories.Interfaces;
 using LanchesMac.Services;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace LanchesMac;
@@ -28,20 +26,6 @@ public class Startup
 
         services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
-        services.AddIdentity<IdentityUser, IdentityRole>()
-                 .AddEntityFrameworkStores<AppDbContext>()
-                 .AddDefaultTokenProviders();
-        //services.Configure<IdentityOptions>(options =>
-        //{
-        //    // Opcionais
-        //    options.Password.RequireDigit = false;
-        //    options.Password.RequireLowercase = false;
-        //    options.Password.RequireNonAlphanumeric = false;
-        //    options.Password.RequireUppercase = false;
-        //    options.Password.RequiredLength = 3;
-        //    options.Password.RequiredUniqueChars = 1;
-        //});
 
         //SERVIÇOS
         services.AddTransient<ILancheRepository, LancheRepository>();

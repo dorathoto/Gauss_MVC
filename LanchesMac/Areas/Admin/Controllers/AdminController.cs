@@ -1,13 +1,15 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-[Area("Admin")]
-[Authorize(Roles = "Admin")]
-public class AdminController : Controller
-{
-    public IActionResult Index()
+namespace LanchesMac.Areas.Admin.Controllers
+{ 
+    [Area("Admin")]
+    [Authorize(Roles = "Admin")]
+    public class AdminController : Controller
     {
-        return View();
+        public IActionResult Index()
+        {
+            return View();
+        }
     }
 }
-
