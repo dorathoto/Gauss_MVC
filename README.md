@@ -39,120 +39,6 @@ Abaixo o conteúdo separado por semanas, verifique a data
 
 -----
 
-### Semana 7 - 25/09 - 01/10
-
-> Objetivo: Area, Filtros
-
-
-**Assistir:** 134'
-
-Observações da semana 7, [clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-7)
-
-_7. NET 6 - Àrea de Administração_ 65'
-
-- [1. Apresentando o conceito de Areas - Criando a Área Admin 9'](https://drive.google.com/file/d/1a1xi4iT2MJBFgv0lzGCEYTZsBl3bbtSU/view?usp=drive_link)
-- [2. Area Admin - Configuração e criação do AdminController 8'](https://drive.google.com/file/d/1a08h7cTPmAx-MDt4kUi1yK5GhAzdq9AT/view?usp=drive_link)
-- [3. Roteiro para implementar o perfil para o usuário Admin 7'](https://drive.google.com/file/d/1_se7W953ce9Xn5C0Za_mak4saizHq--9/view?usp=drive_link)
-- [4. Definindo o perfil para o usuário Admin 11'](https://drive.google.com/file/d/1a3SPbXhfR0kDk9hC0hy_smFH47Tk2ksY/view?usp=drive_link)
-- [5. Testando a implementação do perfil  Admin 6'](https://drive.google.com/file/d/1_raqXhFGCLWywJznWApgjpdsyA_Ex3_L/view?usp=drive_link)
-- [6. Criando a view AccessDenied e o menu para o usuário Admin 6'](https://drive.google.com/file/d/1a2l_uXsNh2moOUlGaMefHmOsEaJ64nD7/view?usp=drive_link)
-- [7. Criar os controladores e views para gerenciar lanches, categorias e pedidos - I 11'](https://drive.google.com/file/d/1_lWCd6IPUAfxSMqWca_2FYxECJ_xOBgi/view?usp=drive_link)
-- [8. Criar os controladores e views para gerenciar lanches, categorias e pedidos - II 7'](https://drive.google.com/file/d/1_z1QK0n6zA_wdtnAedv61PHH78uqgfdu/view?usp=drive_link)
-
-_8. NET 6 - Novas Funcionalidades - Paginação, Filtro de dados, Detalhes do Pedido_ 69'
-
-- [1. Roteiro implementar a paginção, filtro de dados e demais ajustes 10'](https://drive.google.com/file/d/1Vpb_SPx9d0L-bn7_vixBRGpcgnQPkX3F/view?usp=drive_link)
-- [2. Implementando a paginção e filtro de dados 12'](https://drive.google.com/file/d/1VSL7OwoGnjPwy9TA44m5HA6WNx6GrhGk/view?usp=drive_link)
-- [3. Implementando a paginção para Lanches 10'](https://drive.google.com/file/d/1Vilwo9dKonRBiEzJ_1vp4r5yM2MGLNIp/view?usp=drive_link)
-- [4. Roteiro e implementação dos detalhes do pedido na Área Admin 10'](https://drive.google.com/file/d/1VHSQnmDHfTfSdCW32XiUq5ODMx_reZGV/view?usp=drive_link)
-- [5. Implementação dos detalhes do pedido - Explicação detalhada 14'](https://drive.google.com/file/d/1VfOiivW-TXiQ7fDp3-JT0kpznLTgi27-/view?usp=drive_link)49
-- [6. Criando o relatório de pedidos por período 13'](https://drive.google.com/file/d/1VGO2RWN0jNGZdzd6yytbpTzuFsn3og7u/view?usp=drive_link)
-
-
-
-**EXTRAS:**
-
-[Autorização Roles](https://learn.microsoft.com/pt-br/aspnet/core/security/authorization/roles?view=aspnetcore-7.0)
-
-
-**Tarefas:**  
-Enviar  print do solution contendo os arquivos do área
-
-**Quem enviou:**
-
-
------
-### Semana 8 - 02/10 - 08/10
-- Concluir Semanas atrasadas, postar dúvidas no grupo e prints das tarefas.
-
------
-
-### Semana 9 - 09/10 - 15/10
-
-> Objetivo: Upload de arquivo, Charts
-
-
-**Assistir:** 123'
-
-_9. NET 6 - Gerenciamento de Imagens_  49'
-
-- [1. Gerenciamento de Imagens - Conceitos, abordagem e roteiro de configuração 11'](https://drive.google.com/file/d/1NGeT6g4V5S5DW622Y5tnaopxwFtmN5Ec/view?usp=drive_link)
-- [2. Implementação - Configuração e criação dos arquivos da infraestrutura 6'](https://drive.google.com/file/d/1MyjAtxrveD9u-zzJt9CIRDw9cPShmDAj/view?usp=drive_link)
-- [3. Implementação - Exibindo as opções para Upload e Consulta de imagens 12'](https://drive.google.com/file/d/1N6fCYqWnM17eo_EdaYcyKB8ZkTxLtGb0/view?usp=drive_link)
-- [4. Implementação - Enviando arquivos 11'](https://drive.google.com/file/d/1N4vmGM9hg_0nG9UZZafvCOdgTm8yRONw/view?usp=drive_link)
-- [5. Implementação - Exibindo e Deletando imagens 9'](https://drive.google.com/file/d/1N4rKsjGGbmMf5Jp88rqkFDGGeOiBdAqw/view?usp=drive_link)
-
-_10. NET 6 - Gerando gráficos com o GoogleChart_ 53'
-
-- [1. Gerando gráficos usando a biblioteca GoogleChart - Criando o modelo de dominio 5'](https://drive.google.com/file/d/1WCB3wc2EBF2d_MihUKk-UvPSr6RzetQE/view?usp=drive_link)
-- [2. Criando o serviço para gerar os dados para os gráficos 10'](https://drive.google.com/file/d/1W5-m-uUMDxQ_vsQoNzKLVwUIauecFnAu/view?usp=drive_link)
-- [3. Criando o controlador e os métodos Actions		4'](https://drive.google.com/file/d/1Wx02dBwG-rJq0lQxpFtVsV9ozsOBkoHu/view?usp=drive_link)
-- [4. Criando o menu com as opções dos gráficos 		4'](https://drive.google.com/file/d/1VyiuP2wJZrfc7LsnhCn5kvKB0fyaH8bs/view?usp=drive_link)
-- [5. Criando a view Index para gerar o gráfico de barras 8'](https://drive.google.com/file/d/1WCNsG4FoJWnT8QbIdRzaCvv-sJbwsO81/view?usp=drive_link)
-- [6. Criando a view VendasMensal par gerar o gráfico de coluna 9'](https://drive.google.com/file/d/1W5iLfkJc5iRAKnpWbGZk7zhHJI1ooiWV/view?usp=drive_link)
-- [7. Criando a View VendasSemanal para gerar o gráfico de linha 8'](https://drive.google.com/file/d/1W-WE0q57DQkBunL3JUP3WG5ukMmNayYR/view?usp=drive_link)
-- [8. Criando um rodapé e inserindo uma imagem ao título do site 5'](https://drive.google.com/file/d/1W8lp43lLD2WjB95RLzVjHfIGPJls6cTy/view?usp=drive_link)
-
-**EXTRAS:**
-
-**Tarefas:**  
-Enviar print do html do chart e C# do upload
-
-**Quem enviou:**
-
-
------------------
-
-
-### Semana 10 - 16/10 - 23/10
-
-> Objetivo: Deploy
-
-
-**Assistir:** 70'
-
-_11. NET 6 - Migrando o código da classe Startup para a classe Program_ 17'
-- [1. Registrando os serviços e configurando os middlewares na classe Program 6'](https://drive.google.com/file/d/1O8OPzoZfBPS3luPksL1CKgqM3uZ1d-QD/view?usp=drive_link)
-- [2. Implementando a configuração na classe Program e removendo a classe Startup 9'](https://drive.google.com/file/d/1NjYwh7cbk2p_RmQDt1Z9n5lthE6vjP4m/view?usp=drive_link)
-
-_12. NET 6  - Deploy do projeto no IIS_ 13'
-- [1. Fazendo o Deploy no IIS remoto (Host Azul) 13'](https://drive.google.com/file/d/1_eXS-Y2MgYSR_smmrRTcva7FQWP2pnc1/view?usp=drive_link)
-
-_13. NET 6  - Gerando Relatórios e PDF usando o FastReport OpenSource_ 40'
-- [1. Configurando o projeto para usar o FastReport 7'](https://drive.google.com/file/d/1S4imSJxQ-e3Uvaz6M7z_Qt2P6rBSphrz/view?usp=drive_link)
-- [2. Criando o leiaute do relatório usando o Designer 9'](https://drive.google.com/file/d/1SAK7dIJj7aF7zDni4mYL0ZGfSZbAVfrr/view?usp=drive_link)
-- [3. Criando os serviços para obter os dados 6'](https://drive.google.com/file/d/1SLxsPxzuGSTiE0e1xlXOgpKI6HmLdFVv/view?usp=drive_link)
-- [4. Criando o Controller e a View para gerar o relatório 11'](https://drive.google.com/file/d/1SCvz1TKaGNMCH3mJUngj2CKsNtvn7_nh/view?usp=drive_link)
-- [5. Gerando o relatório no formato PDF 7'](https://drive.google.com/file/d/1S3JfSiECEC0fHWF3WpK3QwwgehTfgUhe/view?usp=drive_link)
-
-**Tarefas:**  
-Enviar print do html do chart e C# do upload
-
-
------
-
-# Semanas já concluídas
-
 
 
 
@@ -349,6 +235,121 @@ _6\. NET 6 - Identity Autenticação e Autorização_ 85'
 **EXTRAS:**
   
 **Tarefas:**  
+
+
+### Semana 7 - 25/09 - 01/10
+
+> Objetivo: Area, Filtros
+
+
+**Assistir:** 134'
+
+Observações da semana 7, [clique aqui](https://github.com/dorathoto/Gauss_MVC/wiki/Semana-7)
+
+_7. NET 6 - Àrea de Administração_ 65'
+
+- [1. Apresentando o conceito de Areas - Criando a Área Admin 9'](https://drive.google.com/file/d/1a1xi4iT2MJBFgv0lzGCEYTZsBl3bbtSU/view?usp=drive_link)
+- [2. Area Admin - Configuração e criação do AdminController 8'](https://drive.google.com/file/d/1a08h7cTPmAx-MDt4kUi1yK5GhAzdq9AT/view?usp=drive_link)
+- [3. Roteiro para implementar o perfil para o usuário Admin 7'](https://drive.google.com/file/d/1_se7W953ce9Xn5C0Za_mak4saizHq--9/view?usp=drive_link)
+- [4. Definindo o perfil para o usuário Admin 11'](https://drive.google.com/file/d/1a3SPbXhfR0kDk9hC0hy_smFH47Tk2ksY/view?usp=drive_link)
+- [5. Testando a implementação do perfil  Admin 6'](https://drive.google.com/file/d/1_raqXhFGCLWywJznWApgjpdsyA_Ex3_L/view?usp=drive_link)
+- [6. Criando a view AccessDenied e o menu para o usuário Admin 6'](https://drive.google.com/file/d/1a2l_uXsNh2moOUlGaMefHmOsEaJ64nD7/view?usp=drive_link)
+- [7. Criar os controladores e views para gerenciar lanches, categorias e pedidos - I 11'](https://drive.google.com/file/d/1_lWCd6IPUAfxSMqWca_2FYxECJ_xOBgi/view?usp=drive_link)
+- [8. Criar os controladores e views para gerenciar lanches, categorias e pedidos - II 7'](https://drive.google.com/file/d/1_z1QK0n6zA_wdtnAedv61PHH78uqgfdu/view?usp=drive_link)
+
+_8. NET 6 - Novas Funcionalidades - Paginação, Filtro de dados, Detalhes do Pedido_ 69'
+
+- [1. Roteiro implementar a paginção, filtro de dados e demais ajustes 10'](https://drive.google.com/file/d/1Vpb_SPx9d0L-bn7_vixBRGpcgnQPkX3F/view?usp=drive_link)
+- [2. Implementando a paginção e filtro de dados 12'](https://drive.google.com/file/d/1VSL7OwoGnjPwy9TA44m5HA6WNx6GrhGk/view?usp=drive_link)
+- [3. Implementando a paginção para Lanches 10'](https://drive.google.com/file/d/1Vilwo9dKonRBiEzJ_1vp4r5yM2MGLNIp/view?usp=drive_link)
+- [4. Roteiro e implementação dos detalhes do pedido na Área Admin 10'](https://drive.google.com/file/d/1VHSQnmDHfTfSdCW32XiUq5ODMx_reZGV/view?usp=drive_link)
+- [5. Implementação dos detalhes do pedido - Explicação detalhada 14'](https://drive.google.com/file/d/1VfOiivW-TXiQ7fDp3-JT0kpznLTgi27-/view?usp=drive_link)49
+- [6. Criando o relatório de pedidos por período 13'](https://drive.google.com/file/d/1VGO2RWN0jNGZdzd6yytbpTzuFsn3og7u/view?usp=drive_link)
+
+
+
+**EXTRAS:**
+
+[Autorização Roles](https://learn.microsoft.com/pt-br/aspnet/core/security/authorization/roles?view=aspnetcore-7.0)
+
+
+**Tarefas:**  
+Enviar  print do solution contendo os arquivos do área
+
+**Quem enviou:**
+
+
+-----
+### Semana 8 - 02/10 - 08/10
+- Concluir Semanas atrasadas, postar dúvidas no grupo e prints das tarefas.
+
+-----
+
+### Semana 9 - 09/10 - 15/10
+
+> Objetivo: Upload de arquivo, Charts
+
+
+**Assistir:** 123'
+
+_9. NET 6 - Gerenciamento de Imagens_  49'
+
+- [1. Gerenciamento de Imagens - Conceitos, abordagem e roteiro de configuração 11'](https://drive.google.com/file/d/1NGeT6g4V5S5DW622Y5tnaopxwFtmN5Ec/view?usp=drive_link)
+- [2. Implementação - Configuração e criação dos arquivos da infraestrutura 6'](https://drive.google.com/file/d/1MyjAtxrveD9u-zzJt9CIRDw9cPShmDAj/view?usp=drive_link)
+- [3. Implementação - Exibindo as opções para Upload e Consulta de imagens 12'](https://drive.google.com/file/d/1N6fCYqWnM17eo_EdaYcyKB8ZkTxLtGb0/view?usp=drive_link)
+- [4. Implementação - Enviando arquivos 11'](https://drive.google.com/file/d/1N4vmGM9hg_0nG9UZZafvCOdgTm8yRONw/view?usp=drive_link)
+- [5. Implementação - Exibindo e Deletando imagens 9'](https://drive.google.com/file/d/1N4rKsjGGbmMf5Jp88rqkFDGGeOiBdAqw/view?usp=drive_link)
+
+_10. NET 6 - Gerando gráficos com o GoogleChart_ 53'
+
+- [1. Gerando gráficos usando a biblioteca GoogleChart - Criando o modelo de dominio 5'](https://drive.google.com/file/d/1WCB3wc2EBF2d_MihUKk-UvPSr6RzetQE/view?usp=drive_link)
+- [2. Criando o serviço para gerar os dados para os gráficos 10'](https://drive.google.com/file/d/1W5-m-uUMDxQ_vsQoNzKLVwUIauecFnAu/view?usp=drive_link)
+- [3. Criando o controlador e os métodos Actions		4'](https://drive.google.com/file/d/1Wx02dBwG-rJq0lQxpFtVsV9ozsOBkoHu/view?usp=drive_link)
+- [4. Criando o menu com as opções dos gráficos 		4'](https://drive.google.com/file/d/1VyiuP2wJZrfc7LsnhCn5kvKB0fyaH8bs/view?usp=drive_link)
+- [5. Criando a view Index para gerar o gráfico de barras 8'](https://drive.google.com/file/d/1WCNsG4FoJWnT8QbIdRzaCvv-sJbwsO81/view?usp=drive_link)
+- [6. Criando a view VendasMensal par gerar o gráfico de coluna 9'](https://drive.google.com/file/d/1W5iLfkJc5iRAKnpWbGZk7zhHJI1ooiWV/view?usp=drive_link)
+- [7. Criando a View VendasSemanal para gerar o gráfico de linha 8'](https://drive.google.com/file/d/1W-WE0q57DQkBunL3JUP3WG5ukMmNayYR/view?usp=drive_link)
+- [8. Criando um rodapé e inserindo uma imagem ao título do site 5'](https://drive.google.com/file/d/1W8lp43lLD2WjB95RLzVjHfIGPJls6cTy/view?usp=drive_link)
+
+**EXTRAS:**
+
+**Tarefas:**  
+Enviar print do html do chart e C# do upload
+
+**Quem enviou:**
+
+
+-----------------
+
+
+### Semana 10 - 16/10 - 23/10
+
+> Objetivo: Deploy
+
+
+**Assistir:** 70'
+
+_11. NET 6 - Migrando o código da classe Startup para a classe Program_ 17'
+- [1. Registrando os serviços e configurando os middlewares na classe Program 6'](https://drive.google.com/file/d/1O8OPzoZfBPS3luPksL1CKgqM3uZ1d-QD/view?usp=drive_link)
+- [2. Implementando a configuração na classe Program e removendo a classe Startup 9'](https://drive.google.com/file/d/1NjYwh7cbk2p_RmQDt1Z9n5lthE6vjP4m/view?usp=drive_link)
+
+_12. NET 6  - Deploy do projeto no IIS_ 13'
+- [1. Fazendo o Deploy no IIS remoto (Host Azul) 13'](https://drive.google.com/file/d/1_eXS-Y2MgYSR_smmrRTcva7FQWP2pnc1/view?usp=drive_link)
+
+_13. NET 6  - Gerando Relatórios e PDF usando o FastReport OpenSource_ 40'
+- [1. Configurando o projeto para usar o FastReport 7'](https://drive.google.com/file/d/1S4imSJxQ-e3Uvaz6M7z_Qt2P6rBSphrz/view?usp=drive_link)
+- [2. Criando o leiaute do relatório usando o Designer 9'](https://drive.google.com/file/d/1SAK7dIJj7aF7zDni4mYL0ZGfSZbAVfrr/view?usp=drive_link)
+- [3. Criando os serviços para obter os dados 6'](https://drive.google.com/file/d/1SLxsPxzuGSTiE0e1xlXOgpKI6HmLdFVv/view?usp=drive_link)
+- [4. Criando o Controller e a View para gerar o relatório 11'](https://drive.google.com/file/d/1SCvz1TKaGNMCH3mJUngj2CKsNtvn7_nh/view?usp=drive_link)
+- [5. Gerando o relatório no formato PDF 7'](https://drive.google.com/file/d/1S3JfSiECEC0fHWF3WpK3QwwgehTfgUhe/view?usp=drive_link)
+
+**Tarefas:**  
+Enviar print do html do chart e C# do upload
+
+
+-----
+
+
 Enviar print do checkout (tela final) e Login do sistema
 
 **Quem enviou:** Thiago, Nilton
